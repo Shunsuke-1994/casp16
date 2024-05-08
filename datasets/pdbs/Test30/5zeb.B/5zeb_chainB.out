@@ -1,0 +1,303 @@
+****************************************************************************
+         DSSR: a software program for Defining the Secondary
+         Structures of RNA from three-dimensional coordinates
+        v1.0.1-2014jan31, by Xiang-Jun Lu (xiangjun@x3dna.org)
+
+   This program is actively maintained and developed. As always, I
+   greatly appreciate your feedback! Please report all DSSR-related
+   issues on the 3DNA Forum (http://forum.x3dna.org/). I strive to
+   respond promptly to *any* questions posted there.
+
+****************************************************************************
+Note: Each nucleotide is identified by model:chainId.name#, where the
+      'model:' portion is omitted if no model number is available as
+      is normally the case for X-ray crystal structures in the PDB. So
+      a common example would be like A.G19, meaning G #19 on chain A.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the
+      output notation, please run DSSR with the '-note' option. More
+      details can be found in the DSSR user manual. Questions and
+      suggestions are always welcome on the 3DNA Forum.
+
+Command: x3dna-dssr -i=./datasets/pdbs/Test30/5zeb/5zeb_chainB.pdb -o=./datasets/pdbs/Test30/5zeb/5zeb_chainB.out
+Date and time: Wed May  8 20:40:43 2024
+File name: 5zeb_chainB.pdb
+    no. of DNA/RNA chains: 1 [B=117]
+    no. of nucleotides:    117
+    no. of atoms:          2501
+    no. of waters:         0
+    no. of metals:         0
+
+****************************************************************************
+List of 46 base pairs
+      nt1              nt2             bp  name         Saenger    LW DSSR
+   1 B.G1             B.C116           G-C WC           19-XIX    cWW cW-W
+   2 B.U2             B.A115           U-A WC           20-XX     cWW cW-W
+   3 B.U3             B.A114           U-A WC           20-XX     cWW cW-W
+   4 B.A4             B.G25            A+G              00-n/a    tWW tW+W
+   5 B.A4             B.G113           A-G              00-n/a    ... c...
+   6 B.C5             B.C112           C-C              00-n/a    ... c...
+   7 B.G6             B.C111           G-C WC           19-XIX    cWW cW-W
+   8 B.G7             B.G110           G-G              00-n/a    cWW cW-W
+   9 B.G9             B.C108           G-C WC           19-XIX    cWW cW-W
+  10 B.G10            B.C106           G-C              00-n/a    cWW cW-W
+  11 B.G10            B.A107           G-A              08-VIII   cWW cW-W
+  12 B.C13            B.C69            C+C              00-n/a    ... t...
+  13 B.A16            B.G68            A-G              00-n/a    cWW cW-W
+  14 B.G17            B.A67            G-A              08-VIII   cWW cW-W
+  15 B.G19            B.G64            G-G              00-n/a    cWW cW-W
+  16 B.G19            B.C65            G-C              00-n/a    cWW cW-W
+  17 B.G20            B.U63            G-U Wobble       28-XXVIII cWW cW-W
+  18 B.A22            B.C61            A-C              00-n/a    ... c...
+  19 B.G23            B.G60            G-G              00-n/a    ... c...
+  20 B.G24            B.A27            G+A              00-n/a    tSW tm+W
+  21 B.G24            B.A59            G-A              00-n/a    cWW cW-W
+  22 B.G24            B.G60            G-G              00-n/a    cWW cW-W
+  23 B.G25            B.A114           G-A              00-n/a    cWS cW-m
+  24 B.C29            B.G55            C-G WC           19-XIX    cWW cW-W
+  25 B.C29            B.A58            C-A              00-n/a    cSW cm-W
+  26 B.G30            B.A54            G-A              08-VIII   cWW cW-W
+  27 B.C31            B.G51            C-G WC           19-XIX    cWW cW-W
+  28 B.C31            B.A53            C-A              00-n/a    cS. cm-.
+  29 B.G34            B.C48            G-C WC           19-XIX    cWW cW-W
+  30 B.C39            B.A46            C-A              00-n/a    cS. cm-.
+  31 B.A40            B.G45            A-G              00-n/a    ... c...
+  32 B.C44            B.A47            C+A              00-n/a    tSW tm+W
+  33 B.C56            B.A58            C+A              00-n/a    cWH cW+M
+  34 B.A67            B.A105           A-A              00-n/a    tHW tM-W
+  35 B.C69            B.G104           C-G              00-n/a    ... c...
+  36 B.G70            B.G103           G-G              00-n/a    cWW cW-W
+  37 B.G73            B.G100           G-G              07-VII    tHW tM-W
+  38 B.A74            B.A99            A-A              00-n/a    tHW cM-W
+  39 B.U75            B.A98            U-A              00-n/a    c.W c.-W
+  40 B.A77            B.A96            A-A              00-n/a    ... t...
+  41 B.A79            B.G94            A-G              08-VIII   cWW cW-W
+  42 B.C80            B.U93            C-U              00-n/a    ... c...
+  43 B.U81            B.G92            U-G Wobble       28-XXVIII cWW cW-W
+  44 B.A82            B.G91            A-G              00-n/a    cWW cW-W
+  45 B.C83            B.G90            C-G WC           19-XIX    cWW cW-W
+  46 B.C85            B.C89            C-C              00-n/a    ... c...
+
+****************************************************************************
+List of 7 multiplets
+   1 nts=3 UGA B.U3,B.G25,B.A114
+   2 nts=3 AGG B.A4,B.G25,B.G113
+   3 nts=3 CCG B.C13,B.C69,B.G104
+   4 nts=3 GAA B.G17,B.A67,B.A105
+   5 nts=3 CGA B.C29,B.G55,B.A58
+   6 nts=3 CGA B.C31,B.G51,B.A53
+   7 nts=4* GAAG B.G24,B.A27,B.A59,B.G60
+
+****************************************************************************
+List of 10 helices
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[1] bps=7
+      strand-1 5'-GUUACGG-3'
+       bp-type    |||..|.
+      strand-2 3'-CAAGCCG-5'
+      helix-form  ......
+   1 B.G1             B.C116           G-C WC           19-XIX    cWW cW-W
+   2 B.U2             B.A115           U-A WC           20-XX     cWW cW-W
+   3 B.U3             B.A114           U-A WC           20-XX     cWW cW-W
+   4 B.A4             B.G113           A-G              00-n/a    ... c...
+   5 B.C5             B.C112           C-C              00-n/a    ... c...
+   6 B.G6             B.C111           G-C WC           19-XIX    cWW cW-W
+   7 B.G7             B.G110           G-G              00-n/a    cWW cW-W
+  --------------------------------------------------------------------------
+  helix#2[0] bps=2
+      strand-1 5'-GG-3'
+       bp-type    |.
+      strand-2 3'-CA-5'
+      helix-form  .
+   1 B.G9             B.C108           G-C WC           19-XIX    cWW cW-W
+   2 B.G10            B.A107           G-A              08-VIII   cWW cW-W
+  --------------------------------------------------------------------------
+  helix#3[0] bps=2
+      strand-1 5'-AG-3'
+       bp-type    ..
+      strand-2 3'-GA-5'
+      helix-form  .
+   1 B.A16            B.G68            A-G              00-n/a    cWW cW-W
+   2 B.G17            B.A67            G-A              08-VIII   cWW cW-W
+  --------------------------------------------------------------------------
+  helix#4[0] bps=2
+      strand-1 5'-GG-3'
+       bp-type    .|
+      strand-2 3'-GU-5'
+      helix-form  .
+   1 B.G19            B.G64            G-G              00-n/a    cWW cW-W
+   2 B.G20            B.U63            G-U Wobble       28-XXVIII cWW cW-W
+  --------------------------------------------------------------------------
+  helix#5[0] bps=4
+      strand-1 5'-AGGC-3'
+       bp-type    ....
+      strand-2 3'-CGAA-5'
+      helix-form  ..x
+   1 B.A22            B.C61            A-C              00-n/a    ... c...
+   2 B.G23            B.G60            G-G              00-n/a    ... c...
+   3 B.G24            B.A59            G-A              00-n/a    cWW cW-W
+   4 B.C56            B.A58            C+A              00-n/a    cWH cW+M
+  --------------------------------------------------------------------------
+  helix#6[0] bps=3
+      strand-1 5'-CGC-3'
+       bp-type    |.|
+      strand-2 3'-GAG-5'
+      helix-form  .x
+   1 B.C29            B.G55            C-G WC           19-XIX    cWW cW-W
+   2 B.G30            B.A54            G-A              08-VIII   cWW cW-W
+   3 B.C31            B.G51            C-G WC           19-XIX    cWW cW-W
+  --------------------------------------------------------------------------
+  helix#7[0] bps=4
+      strand-1 5'-GCCA-3'
+       bp-type    |...
+      strand-2 3'-CAAG-5'
+      helix-form  xx.
+   1 B.G34            B.C48            G-C WC           19-XIX    cWW cW-W
+   2 B.C44            B.A47            C+A              00-n/a    tSW tm+W
+   3 B.C39            B.A46            C-A              00-n/a    cS. cm-.
+   4 B.A40            B.G45            A-G              00-n/a    ... c...
+  --------------------------------------------------------------------------
+  helix#8[0] bps=2
+      strand-1 5'-CG-3'
+       bp-type    ..
+      strand-2 3'-GG-5'
+      helix-form  .
+   1 B.C69            B.G104           C-G              00-n/a    ... c...
+   2 B.G70            B.G103           G-G              00-n/a    cWW cW-W
+  --------------------------------------------------------------------------
+  helix#9[0] bps=3
+      strand-1 5'-GAU-3'
+       bp-type    ...
+      strand-2 3'-GAA-5'
+      helix-form  ..
+   1 B.G73            B.G100           G-G              07-VII    tHW tM-W
+   2 B.A74            B.A99            A-A              00-n/a    tHW cM-W
+   3 B.U75            B.A98            U-A              00-n/a    c.W c.-W
+  --------------------------------------------------------------------------
+  helix#10[0] bps=5
+      strand-1 5'-ACUAC-3'
+       bp-type    ..|.|
+      strand-2 3'-GUGGG-5'
+      helix-form  ...A
+   1 B.A79            B.G94            A-G              08-VIII   cWW cW-W
+   2 B.C80            B.U93            C-U              00-n/a    ... c...
+   3 B.U81            B.G92            U-G Wobble       28-XXVIII cWW cW-W
+   4 B.A82            B.G91            A-G              00-n/a    cWW cW-W
+   5 B.C83            B.G90            C-G WC           19-XIX    cWW cW-W
+
+****************************************************************************
+List of 1 stem
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#1] bps=3
+      strand-1 5'-GUU-3'
+       bp-type    |||
+      strand-2 3'-CAA-5'
+      helix-form  ..
+   1 B.G1             B.C116           G-C WC           19-XIX    cWW cW-W
+   2 B.U2             B.A115           U-A WC           20-XX     cWW cW-W
+   3 B.U3             B.A114           U-A WC           20-XX     cWW cW-W
+
+****************************************************************************
+List of 8 lone WC/wobble pairs
+  Note: lone WC/wobble pairs are assigned negative indices to differentiate
+        them from the stem numbers, which are positive.
+        --------------------------------------------------------------------
+  -1 B.G6             B.C111           G-C WC           19-XIX    cWW cW-W
+  -2 B.G9             B.C108           G-C WC           19-XIX    cWW cW-W
+  -3 B.G20            B.U63            G-U Wobble       28-XXVIII cWW cW-W
+  -4 B.C29            B.G55            C-G WC           19-XIX    cWW cW-W
+  -5 B.C31            B.G51            C-G WC           19-XIX    cWW cW-W
+  -6 B.G34            B.C48            G-C WC           19-XIX    cWW cW-W
+  -7 B.U81            B.G92            U-G Wobble       28-XXVIII cWW cW-W
+  -8 B.C83            B.G90            C-G WC           19-XIX    cWW cW-W
+
+****************************************************************************
+Note: for the various types of loops listed below, numbers within the first
+      set of brackets are the number of loop nts, and numbers in the second
+      set of brackets are the identities of the stems (positive number) or
+      lone WC/wobble pairs (negative numbers) to which they are linked.
+
+****************************************************************************
+List of 2 hairpin loops
+   1 hairpin loop: nts=15; [13]; linked by [#-6]
+     nts=15 GGUCCCAUCCCGAAC B.G34,B.G35,B.U36,B.C37,B.C38,B.C39,B.A40,B.U41,B.C42,B.C43,B.C44,B.G45,B.A46,B.A47,B.C48
+       nts=13 GUCCCAUCCCGAA B.G35,B.U36,B.C37,B.C38,B.C39,B.A40,B.U41,B.C42,B.C43,B.C44,B.G45,B.A46,B.A47
+   2 hairpin loop: nts=8; [6]; linked by [#-8]
+     nts=8 CCCUUCCG B.C83,B.C84,B.C85,B.U86,B.U87,B.C88,B.C89,B.G90
+       nts=6 CCUUCC B.C84,B.C85,B.U86,B.U87,B.C88,B.C89
+
+****************************************************************************
+List of 6 internal loops
+   1 symmetric internal loop: nts=8; [2,2]; linked by [#1,#-1]
+     nts=8 UACGCCGA B.U3,B.A4,B.C5,B.G6,B.C111,B.C112,B.G113,B.A114
+       nts=2 AC B.A4,B.C5
+       nts=2 CG B.C112,B.G113
+   2 symmetric internal loop: nts=8; [2,2]; linked by [#-1,#-2]
+     nts=8 GGCGCCGC B.G6,B.G7,B.C8,B.G9,B.C108,B.C109,B.G110,B.C111
+       nts=2 GC B.G7,B.C8
+       nts=2 CG B.C109,B.G110
+   3 asymmetric internal loop: nts=19; [8,7]; linked by [#-3,#-4]
+     nts=19 GCAGGGAAACGCUAAGCCU B.G20,B.C21,B.A22,B.G23,B.G24,B.G25,B.A26,B.A27,B.A28,B.C29,B.G55,B.C56,B.U57,B.A58,B.A59,B.G60,B.C61,B.C62,B.U63
+       nts=8 CAGGGAAA B.C21,B.A22,B.G23,B.G24,B.G25,B.A26,B.A27,B.A28
+       nts=7 CUAAGCC B.C56,B.U57,B.A58,B.A59,B.G60,B.C61,B.C62
+   4 asymmetric internal loop: nts=8; [1,3]; linked by [#-4,#-5]
+     nts=8 CGCGGAAG B.C29,B.G30,B.C31,B.G51,B.G52,B.A53,B.A54,B.G55
+       nts=1 G B.G30
+       nts=3 GAA B.G52,B.A53,B.A54
+   5 symmetric internal loop: nts=8; [2,2]; linked by [#-5,#-6]
+     nts=8 CCCGCCCG B.C31,B.C32,B.C33,B.G34,B.C48,B.C49,B.C50,B.G51
+       nts=2 CC B.C32,B.C33
+       nts=2 CC B.C49,B.C50
+   6 symmetric internal loop: nts=6; [1,1]; linked by [#-7,#-8]
+     nts=6 UACGGG B.U81,B.A82,B.C83,B.G90,B.G91,B.G92
+       nts=1 A B.A82
+       nts=1 G B.G91
+
+****************************************************************************
+List of 1 junction
+   1 3-way junctions: nts=48; [10,17,15]; linked by [#-2,#-3,#-7]
+     nts=48 GGUCCAUAGCGGUGCCAGCGCCGAUGAUACUGUGGAAAAGUAGGACAC B.G9,B.G10,B.U11,B.C12,B.C13,B.A14,B.U15,B.A16,B.G17,B.C18,B.G19,B.G20,B.U63,B.G64,B.C65,B.C66,B.A67,B.G68,B.C69,B.G70,B.C71,B.C72,B.G73,B.A74,B.U75,B.G76,B.A77,B.U78,B.A79,B.C80,B.U81,B.G92,B.U93,B.G94,B.G95,B.A96,B.A97,B.A98,B.A99,B.G100,B.U101,B.A102,B.G103,B.G104,B.A105,B.C106,B.A107,B.C108
+       nts=10 GUCCAUAGCG B.G10,B.U11,B.C12,B.C13,B.A14,B.U15,B.A16,B.G17,B.C18,B.G19
+       nts=17 GCCAGCGCCGAUGAUAC B.G64,B.C65,B.C66,B.A67,B.G68,B.C69,B.G70,B.C71,B.C72,B.G73,B.A74,B.U75,B.G76,B.A77,B.U78,B.A79,B.C80
+       nts=15 UGGAAAAGUAGGACA B.U93,B.G94,B.G95,B.A96,B.A97,B.A98,B.A99,B.G100,B.U101,B.A102,B.G103,B.G104,B.A105,B.C106,B.A107
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=1 A B.A117
+
+****************************************************************************
+List of 1 ribose zipper
+   1 nts=4 UUCC B.U86,B.U87,B.C88,B.C88
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>5zeb_chainB nts=117 [whole]
+GUUACGGCGGUCCAUAGCGGCAGGGAAACGCCCGGUCCCAUCCCGAACCCGGAAGCUAAGCCUGCCAGCGCCGAUGAUACUACCCUUCCGGGUGGAAAAGUAGGACACCGCCGAACA
+(((..(..(..........(........(.(..(.............)..)...).......).................(.(......).)...............)..)..))).
+>5zeb_chainB-B #1 nts=117 [chain] RNA
+GUUACGGCGGUCCAUAGCGGCAGGGAAACGCCCGGUCCCAUCCCGAACCCGGAAGCUAAGCCUGCCAGCGCCGAUGAUACUACCCUUCCGGGUGGAAAAGUAGGACACCGCCGAACA
+(((..(..(..........(........(.(..(.............)..)...).......).................(.(......).)...............)..)..))).
+
+****************************************************************************
+List of 8 additional files
+   1 dssr-stems.pdb -- MODEL/ENDMDL delineated stems
+   2 dssr-helices.pdb -- MODEL/ENDMDL delineated helices (pseudo/coaxial)
+   3 dssr-pairs.pdb -- MODEL/ENDMDL delineated base pairs
+   4 dssr-multiplets.pdb -- MODEL/ENDMDL delineated multiplets
+   5 dssr-hairpins.pdb -- MODEL/ENDMDL delineated hairpin loops
+   6 dssr-2ndstrs.ct -- secondary structures in the connect format
+   7 dssr-2ndstrs.dbn -- secondary structures in the dot-bracket notation
+   8 dssr-torsions.dat -- Backbone torsion angles and suite names

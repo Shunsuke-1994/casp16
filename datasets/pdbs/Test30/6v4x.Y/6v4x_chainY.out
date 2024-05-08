@@ -1,0 +1,48 @@
+****************************************************************************
+         DSSR: a software program for Defining the Secondary
+         Structures of RNA from three-dimensional coordinates
+        v1.0.1-2014jan31, by Xiang-Jun Lu (xiangjun@x3dna.org)
+
+   This program is actively maintained and developed. As always, I
+   greatly appreciate your feedback! Please report all DSSR-related
+   issues on the 3DNA Forum (http://forum.x3dna.org/). I strive to
+   respond promptly to *any* questions posted there.
+
+****************************************************************************
+Note: Each nucleotide is identified by model:chainId.name#, where the
+      'model:' portion is omitted if no model number is available as
+      is normally the case for X-ray crystal structures in the PDB. So
+      a common example would be like A.G19, meaning G #19 on chain A.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the
+      output notation, please run DSSR with the '-note' option. More
+      details can be found in the DSSR user manual. Questions and
+      suggestions are always welcome on the 3DNA Forum.
+
+Command: x3dna-dssr -i=./datasets/pdbs/Test30/6v4x/6v4x_chainY.pdb -o=./datasets/pdbs/Test30/6v4x/6v4x_chainY.out
+Date and time: Wed May  8 20:40:34 2024
+File name: 6v4x_chainY.pdb
+    no. of DNA/RNA chains: 1 [Y=25]
+    no. of nucleotides:    25
+    no. of atoms:          537
+    no. of waters:         0
+    no. of metals:         0
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=25 CACUGAAUCAGAUAAAGAGCUGUAA Y.C25,Y.A26,Y.C27,Y.U28,Y.G29,Y.A30,Y.A31,Y.U32,Y.C33,Y.A34,Y.G35,Y.A36,Y.U37,Y.A38,Y.A39,Y.A40,Y.G41,Y.A42,Y.G43,Y.C44,Y.U45,Y.G46,Y.U47,Y.A48,Y.A49
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>6v4x_chainY nts=25 [whole]
+CACUGAAUCAGAUAAAGAGCUGUAA
+.........................
+>6v4x_chainY-Y #1 nts=25 [chain] RNA
+CACUGAAUCAGAUAAAGAGCUGUAA
+.........................
+
+****************************************************************************
+List of 3 additional files
+   1 dssr-2ndstrs.ct -- secondary structures in the connect format
+   2 dssr-2ndstrs.dbn -- secondary structures in the dot-bracket notation
+   3 dssr-torsions.dat -- Backbone torsion angles and suite names

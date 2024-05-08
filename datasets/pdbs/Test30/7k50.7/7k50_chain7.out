@@ -1,0 +1,229 @@
+****************************************************************************
+         DSSR: a software program for Defining the Secondary
+         Structures of RNA from three-dimensional coordinates
+        v1.0.1-2014jan31, by Xiang-Jun Lu (xiangjun@x3dna.org)
+
+   This program is actively maintained and developed. As always, I
+   greatly appreciate your feedback! Please report all DSSR-related
+   issues on the 3DNA Forum (http://forum.x3dna.org/). I strive to
+   respond promptly to *any* questions posted there.
+
+****************************************************************************
+Note: Each nucleotide is identified by model:chainId.name#, where the
+      'model:' portion is omitted if no model number is available as
+      is normally the case for X-ray crystal structures in the PDB. So
+      a common example would be like A.G19, meaning G #19 on chain A.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the
+      output notation, please run DSSR with the '-note' option. More
+      details can be found in the DSSR user manual. Questions and
+      suggestions are always welcome on the 3DNA Forum.
+
+Command: x3dna-dssr -i=./datasets/pdbs/Test30/7k50/7k50_chain7.pdb -o=./datasets/pdbs/Test30/7k50/7k50_chain7.out
+Date and time: Wed May  8 20:40:06 2024
+File name: 7k50_chain7.pdb
+    no. of DNA/RNA chains: 1 [7=77]
+    no. of nucleotides:    77
+    no. of atoms:          1647
+    no. of waters:         0
+    no. of metals:         0
+
+****************************************************************************
+List of 32 base pairs
+      nt1              nt2             bp  name         Saenger    LW DSSR
+   1 7.C1             7.G72            C-G WC           19-XIX    cWW cW-W
+   2 7.G2             7.C71            G-C WC           19-XIX    cWW cW-W
+   3 7.G3             7.C70            G-C WC           19-XIX    cWW cW-W
+   4 7.C4             7.G69            C-G WC           19-XIX    cWW cW-W
+   5 7.G5             7.C68            G-C WC           19-XIX    cWW cW-W
+   6 7.A6             7.U67            A-U WC           20-XX     cWW cW-W
+   7 7.G7             7.C66            G-C WC           19-XIX    cWW cW-W
+   8 7.U8             7.A14            U-A rHoogsteen   24-XXIV   tWH tW-M
+   9 7.U8             7.A21            U+A              00-n/a    ... t...
+  10 7.A9             7.C23            A+C              00-n/a    tHH tM+M
+  11 7.G10            7.C25            G-C WC           19-XIX    cWW cW-W
+  12 7.G10            7.G45            G+G              00-n/a    cHW cM+W
+  13 7.C11            7.G24            C-G WC           19-XIX    cWW cW-W
+  14 7.G12            7.C23            G-C WC           19-XIX    cWW cW-W
+  15 7.C13            7.G22            C-G WC           19-XIX    cWW cW-W
+  16 7.A14            7.A21            A-A              00-n/a    t.S c.-m
+  17 7.G15            7.C48            G+C rWC          22-XXII   tWW tW+W
+  18 7.G22            7.G46            G-G              07-VII    tHW tM-W
+  19 7.A26            7.G44            A-G              00-n/a    c.W c.-W
+  20 7.A27            7.U43            A-U WC           20-XX     cWW cW-W
+  21 7.C28            7.G42            C-G WC           19-XIX    cWW cW-W
+  22 7.U29            7.A41            U-A WC           20-XX     cWW cW-W
+  23 7.G30            7.C40            G-C WC           19-XIX    cWW cW-W
+  24 7.G31            7.C39            G-C WC           19-XIX    cWW cW-W
+  25 7.U32            7.A38            U-A              00-n/a    cW. cW-.
+  26 7.U33            7.G36            U-G              00-n/a    ... t...
+  27 7.G49            7.U65            G-U              00-n/a    cWW cW-W
+  28 7.G50            7.C64            G-C WC           19-XIX    cWW cW-W
+  29 7.A51            7.U63            A-U WC           20-XX     cWW cW-W
+  30 7.G52            7.C62            G-C WC           19-XIX    cWW cW-W
+  31 7.G53            7.C61            G-C WC           19-XIX    cWW cW-W
+  32 7.U54            7.A58            U-A rHoogsteen   24-XXIV   tWH tW-M
+
+****************************************************************************
+List of 3 multiplets
+   1 nts=3 UAA 7.U8,7.A14,7.A21
+   2 nts=3 GCG 7.G10,7.C25,7.G45
+   3 nts=3 CGG 7.C13,7.G22,7.G46
+
+****************************************************************************
+List of 2 helices
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[2] bps=13
+      strand-1 5'-CGGCGAGGGAGGU-3'
+       bp-type    |||||||.||||.
+      strand-2 3'-GCCGCUCUCUCCA-5'
+      helix-form  ......xAAAAx
+   1 7.C1             7.G72            C-G WC           19-XIX    cWW cW-W
+   2 7.G2             7.C71            G-C WC           19-XIX    cWW cW-W
+   3 7.G3             7.C70            G-C WC           19-XIX    cWW cW-W
+   4 7.C4             7.G69            C-G WC           19-XIX    cWW cW-W
+   5 7.G5             7.C68            G-C WC           19-XIX    cWW cW-W
+   6 7.A6             7.U67            A-U WC           20-XX     cWW cW-W
+   7 7.G7             7.C66            G-C WC           19-XIX    cWW cW-W
+   8 7.G49            7.U65            G-U              00-n/a    cWW cW-W
+   9 7.G50            7.C64            G-C WC           19-XIX    cWW cW-W
+  10 7.A51            7.U63            A-U WC           20-XX     cWW cW-W
+  11 7.G52            7.C62            G-C WC           19-XIX    cWW cW-W
+  12 7.G53            7.C61            G-C WC           19-XIX    cWW cW-W
+  13 7.U54            7.A58            U-A rHoogsteen   24-XXIV   tWH tW-M
+  --------------------------------------------------------------------------
+  helix#2[2] bps=14
+      strand-1 5'-GACCAGUGGCGCAG-3'
+       bp-type    ..|||||.||||..
+      strand-2 3'-UUGGUCAACGCGAC-5'
+      helix-form  x.A..A.xAA..x
+   1 7.G36            7.U33            G-U              00-n/a    ... t...
+   2 7.A38            7.U32            A-U              00-n/a    c.W c.-W
+   3 7.C39            7.G31            C-G WC           19-XIX    cWW cW-W
+   4 7.C40            7.G30            C-G WC           19-XIX    cWW cW-W
+   5 7.A41            7.U29            A-U WC           20-XX     cWW cW-W
+   6 7.G42            7.C28            G-C WC           19-XIX    cWW cW-W
+   7 7.U43            7.A27            U-A WC           20-XX     cWW cW-W
+   8 7.G44            7.A26            G-A              00-n/a    cW. cW-.
+   9 7.G10            7.C25            G-C WC           19-XIX    cWW cW-W
+  10 7.C11            7.G24            C-G WC           19-XIX    cWW cW-W
+  11 7.G12            7.C23            G-C WC           19-XIX    cWW cW-W
+  12 7.C13            7.G22            C-G WC           19-XIX    cWW cW-W
+  13 7.A14            7.A21            A-A              00-n/a    t.S c.-m
+  14 7.G15            7.C48            G+C rWC          22-XXII   tWW tW+W
+
+****************************************************************************
+List of 4 stems
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#1] bps=7
+      strand-1 5'-CGGCGAG-3'
+       bp-type    |||||||
+      strand-2 3'-GCCGCUC-5'
+      helix-form  ......
+   1 7.C1             7.G72            C-G WC           19-XIX    cWW cW-W
+   2 7.G2             7.C71            G-C WC           19-XIX    cWW cW-W
+   3 7.G3             7.C70            G-C WC           19-XIX    cWW cW-W
+   4 7.C4             7.G69            C-G WC           19-XIX    cWW cW-W
+   5 7.G5             7.C68            G-C WC           19-XIX    cWW cW-W
+   6 7.A6             7.U67            A-U WC           20-XX     cWW cW-W
+   7 7.G7             7.C66            G-C WC           19-XIX    cWW cW-W
+  --------------------------------------------------------------------------
+  stem#2[#2] bps=4
+      strand-1 5'-GCGC-3'
+       bp-type    ||||
+      strand-2 3'-CGCG-5'
+      helix-form  AA.
+   1 7.G10            7.C25            G-C WC           19-XIX    cWW cW-W
+   2 7.C11            7.G24            C-G WC           19-XIX    cWW cW-W
+   3 7.G12            7.C23            G-C WC           19-XIX    cWW cW-W
+   4 7.C13            7.G22            C-G WC           19-XIX    cWW cW-W
+  --------------------------------------------------------------------------
+  stem#3[#2] bps=5
+      strand-1 5'-ACUGG-3'
+       bp-type    |||||
+      strand-2 3'-UGACC-5'
+      helix-form  A..A
+   1 7.A27            7.U43            A-U WC           20-XX     cWW cW-W
+   2 7.C28            7.G42            C-G WC           19-XIX    cWW cW-W
+   3 7.U29            7.A41            U-A WC           20-XX     cWW cW-W
+   4 7.G30            7.C40            G-C WC           19-XIX    cWW cW-W
+   5 7.G31            7.C39            G-C WC           19-XIX    cWW cW-W
+  --------------------------------------------------------------------------
+  stem#4[#1] bps=4
+      strand-1 5'-GAGG-3'
+       bp-type    ||||
+      strand-2 3'-CUCC-5'
+      helix-form  AAA
+   1 7.G50            7.C64            G-C WC           19-XIX    cWW cW-W
+   2 7.A51            7.U63            A-U WC           20-XX     cWW cW-W
+   3 7.G52            7.C62            G-C WC           19-XIX    cWW cW-W
+   4 7.G53            7.C61            G-C WC           19-XIX    cWW cW-W
+
+****************************************************************************
+List of 2 coaxial stacks
+   1 Helix#1 contains 2 stems: [#1,#4]
+   2 Helix#2 contains 2 stems: [#2,#3]
+
+****************************************************************************
+Note: for the various types of loops listed below, numbers within the first
+      set of brackets are the number of loop nts, and numbers in the second
+      set of brackets are the identities of the stems (positive number) or
+      lone WC/wobble pairs (negative numbers) to which they are linked.
+
+****************************************************************************
+List of 3 hairpin loops
+   1 hairpin loop: nts=11; [9]; linked by [#2]
+     nts=11 CAGCUUGGUAG 7.C13,7.A14,7.G15,7.C16,7.U17,7.U17^A,7.G18,7.G19,7.U20,7.A21,7.G22
+       nts=9 AGCUUGGUA 7.A14,7.G15,7.C16,7.U17,7.U17^A,7.G18,7.G19,7.U20,7.A21
+   2 hairpin loop: nts=9; [7]; linked by [#3]
+     nts=9 GUUUGGGAC 7.G31,7.U32,7.U33,7.U34,7.G35,7.G36,7.G37,7.A38,7.C39
+       nts=7 UUUGGGA 7.U32,7.U33,7.U34,7.G35,7.G36,7.G37,7.A38
+   3 hairpin loop: nts=9; [7]; linked by [#4]
+     nts=9 GUUCGAAUC 7.G53,7.U54,7.U55,7.C56,7.G57,7.A58,7.A59,7.U60,7.C61
+       nts=7 UUCGAAU 7.U54,7.U55,7.C56,7.G57,7.A58,7.A59,7.U60
+
+****************************************************************************
+List of 1 junction
+   1 4-way junctions: nts=18; [2,1,6,1]; linked by [#1,#2,#3,#4]
+     nts=18 GUAGCAAUGGGUCGGCUC 7.G7,7.U8,7.A9,7.G10,7.C25,7.A26,7.A27,7.U43,7.G44,7.G45,7.G46,7.U47,7.C48,7.G49,7.G50,7.C64,7.U65,7.C66
+       nts=2 UA 7.U8,7.A9
+       nts=1 A 7.A26
+       nts=6 GGGUCG 7.G44,7.G45,7.G46,7.U47,7.C48,7.G49
+       nts=1 U 7.U65
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=4 ACCA 7.A73,7.C74,7.C75,7.A76
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>7k50_chain7 nts=77 [whole]
+CGGCGAGUAGCGCAGCUUGGUAGCGCAACUGGUUUGGGACCAGUGGGUCGGAGGUUCGAAUCCUCUCUCGCCGACCA
+(((((((..((((.........)))).(((((.......)))))......((((.......)))).)))))))....
+>7k50_chain7-7 #1 nts=77 [chain] RNA
+CGGCGAGUAGCGCAGCUUGGUAGCGCAACUGGUUUGGGACCAGUGGGUCGGAGGUUCGAAUCCUCUCUCGCCGACCA
+(((((((..((((.........)))).(((((.......)))))......((((.......)))).)))))))....
+
+****************************************************************************
+List of 8 additional files
+   1 dssr-stems.pdb -- MODEL/ENDMDL delineated stems
+   2 dssr-helices.pdb -- MODEL/ENDMDL delineated helices (pseudo/coaxial)
+   3 dssr-pairs.pdb -- MODEL/ENDMDL delineated base pairs
+   4 dssr-multiplets.pdb -- MODEL/ENDMDL delineated multiplets
+   5 dssr-hairpins.pdb -- MODEL/ENDMDL delineated hairpin loops
+   6 dssr-2ndstrs.ct -- secondary structures in the connect format
+   7 dssr-2ndstrs.dbn -- secondary structures in the dot-bracket notation
+   8 dssr-torsions.dat -- Backbone torsion angles and suite names

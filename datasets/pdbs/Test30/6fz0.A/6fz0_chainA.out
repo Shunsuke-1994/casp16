@@ -1,0 +1,209 @@
+****************************************************************************
+         DSSR: a software program for Defining the Secondary
+         Structures of RNA from three-dimensional coordinates
+        v1.0.1-2014jan31, by Xiang-Jun Lu (xiangjun@x3dna.org)
+
+   This program is actively maintained and developed. As always, I
+   greatly appreciate your feedback! Please report all DSSR-related
+   issues on the 3DNA Forum (http://forum.x3dna.org/). I strive to
+   respond promptly to *any* questions posted there.
+
+****************************************************************************
+Note: Each nucleotide is identified by model:chainId.name#, where the
+      'model:' portion is omitted if no model number is available as
+      is normally the case for X-ray crystal structures in the PDB. So
+      a common example would be like A.G19, meaning G #19 on chain A.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the
+      output notation, please run DSSR with the '-note' option. More
+      details can be found in the DSSR user manual. Questions and
+      suggestions are always welcome on the 3DNA Forum.
+
+Command: x3dna-dssr -i=./datasets/pdbs/Test30/6fz0/6fz0_chainA.pdb -o=./datasets/pdbs/Test30/6fz0/6fz0_chainA.out
+Date and time: Wed May  8 20:40:42 2024
+File name: 6fz0_chainA.pdb
+    no. of DNA/RNA chains: 1 [A=48]
+    no. of nucleotides:    48
+    no. of atoms:          1091
+    no. of waters:         13
+    no. of metals:         3 [Na=2,Mg=1]
+
+****************************************************************************
+List of 25 base pairs
+      nt1              nt2             bp  name         Saenger    LW DSSR
+   1 A.A1             A.U28            A-U WC           20-XX     cWW cW-W
+   2 A.G2             A.C27            G-C WC           19-XIX    cWW cW-W
+   3 A.G3             A.C26            G-C WC           19-XIX    cWW cW-W
+   4 A.G3             A.A42            G+A              00-n/a    tSS tm+m
+   5 A.CBV4           A.G25            c-G WC           19-XIX    cWW cW-W
+   6 A.G5             A.A45            G+A              09-IX     cWH cW+M
+   7 A.A7             A.G21            A-G              00-n/a    t.H t.-M
+   8 A.A7             A.C46            A+C              00-n/a    cWH cW+M
+   9 A.U8             A.U47            U+U              00-n/a    cW. cW+.
+  10 A.U9             A.A48            U+A Hoogsteen    23-XXIII  cWH cW+M
+  11 A.U10            A.A49            U+A Hoogsteen    23-XXIII  cWH cW+M
+  12 A.G11            A.U17            G-U              00-n/a    tWH tW-M
+  13 A.U15            A.A51            U-A rHoogsteen   24-XXIV   tWH tW-M
+  14 A.U17            A.A52            U+A              00-n/a    tWW tW+W
+  15 A.A18            A.A50            A-A              00-n/a    tHS cM-m
+  16 A.U19            A.A49            U-A WC           20-XX     cWW cW-W
+  17 A.U20            A.A48            U-A WC           20-XX     cWW cW-W
+  18 A.G21            A.C46            G-C WC           19-XIX    cWW cW-W
+  19 A.U22            A.A45            U-A WC           20-XX     cWW cW-W
+  20 A.A23            A.U44            A-U WC           20-XX     cWW cW-W
+  21 A.C24            A.G43            C-G WC           19-XIX    cWW cW-W
+  22 A.C27            A.A41            C-A              00-n/a    ... c...
+  23 A.U29            A.A39            U-A WC           20-XX     cWW cW-W
+  24 A.G30            A.C38            G-C WC           19-XIX    cWW cW-W
+  25 A.U47            A.SAM104         U-a rHoogsteen   24-XXIV   tWH tW-M
+
+****************************************************************************
+List of 8 multiplets
+   1 nts=3 GCA A.G2,A.C27,A.A41
+   2 nts=3 GCA A.G3,A.C26,A.A42
+   3 nts=3 GUA A.G5,A.U22,A.A45
+   4 nts=3 AGC A.A7,A.G21,A.C46
+   5 nts=3 UUa A.U8,A.U47,A.SAM104
+   6 nts=3* UUA A.U9,A.U20,A.A48
+   7 nts=3 UUA A.U10,A.U19,A.A49
+   8 nts=3 GUA A.G11,A.U17,A.A52
+
+****************************************************************************
+List of 2 helices
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[3] bps=14
+      strand-1 5'-AGGcGUACUAAAGA-3'
+       bp-type    ||||||||.||...
+      strand-2 3'-UCCGCAUGaUUAUU-5'
+      helix-form  ..Ax.AAxxA.xx
+   1 A.A1             A.U28            A-U WC           20-XX     cWW cW-W
+   2 A.G2             A.C27            G-C WC           19-XIX    cWW cW-W
+   3 A.G3             A.C26            G-C WC           19-XIX    cWW cW-W
+   4 A.CBV4           A.G25            c-G WC           19-XIX    cWW cW-W
+   5 A.G43            A.C24            G-C WC           19-XIX    cWW cW-W
+   6 A.U44            A.A23            U-A WC           20-XX     cWW cW-W
+   7 A.A45            A.U22            A-U WC           20-XX     cWW cW-W
+   8 A.C46            A.G21            C-G WC           19-XIX    cWW cW-W
+   9 A.U47            A.SAM104         U-a rHoogsteen   24-XXIV   tWH tW-M
+  10 A.A48            A.U20            A-U WC           20-XX     cWW cW-W
+  11 A.A49            A.U19            A-U WC           20-XX     cWW cW-W
+  12 A.A50            A.A18            A-A              00-n/a    tSH cm-M
+  13 A.G11            A.U17            G-U              00-n/a    tWH tW-M
+  14 A.A51            A.U15            A-U rHoogsteen   24-XXIV   tHW tM-W
+  --------------------------------------------------------------------------
+  helix#2[1] bps=2
+      strand-1 5'-UG-3'
+       bp-type    ||
+      strand-2 3'-AC-5'
+      helix-form  A
+   1 A.U29            A.A39            U-A WC           20-XX     cWW cW-W
+   2 A.G30            A.C38            G-C WC           19-XIX    cWW cW-W
+
+****************************************************************************
+List of 4 stems
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#1] bps=4
+      strand-1 5'-AGGc-3'
+       bp-type    ||||
+      strand-2 3'-UCCG-5'
+      helix-form  ..A
+   1 A.A1             A.U28            A-U WC           20-XX     cWW cW-W
+   2 A.G2             A.C27            G-C WC           19-XIX    cWW cW-W
+   3 A.G3             A.C26            G-C WC           19-XIX    cWW cW-W
+   4 A.CBV4           A.G25            c-G WC           19-XIX    cWW cW-W
+  --------------------------------------------------------------------------
+  stem#2[#1] bps=2
+      strand-1 5'-UU-3'
+       bp-type    ||
+      strand-2 3'-AA-5'
+      helix-form  A
+   1 A.U19            A.A49            U-A WC           20-XX     cWW cW-W
+   2 A.U20            A.A48            U-A WC           20-XX     cWW cW-W
+  --------------------------------------------------------------------------
+  stem#3[#1] bps=4
+      strand-1 5'-GUAC-3'
+       bp-type    ||||
+      strand-2 3'-CAUG-5'
+      helix-form  AA.
+   1 A.G21            A.C46            G-C WC           19-XIX    cWW cW-W
+   2 A.U22            A.A45            U-A WC           20-XX     cWW cW-W
+   3 A.A23            A.U44            A-U WC           20-XX     cWW cW-W
+   4 A.C24            A.G43            C-G WC           19-XIX    cWW cW-W
+  --------------------------------------------------------------------------
+  stem#4[#2] bps=2
+      strand-1 5'-UG-3'
+       bp-type    ||
+      strand-2 3'-AC-5'
+      helix-form  A
+   1 A.U29            A.A39            U-A WC           20-XX     cWW cW-W
+   2 A.G30            A.C38            G-C WC           19-XIX    cWW cW-W
+
+****************************************************************************
+List of 1 coaxial stack
+   1 Helix#1 contains 3 stems: [#1,#2,#3]
+
+****************************************************************************
+Note: for the various types of loops listed below, numbers within the first
+      set of brackets are the number of loop nts, and numbers in the second
+      set of brackets are the identities of the stems (positive number) or
+      lone WC/wobble pairs (negative numbers) to which they are linked.
+
+****************************************************************************
+List of 1 bulge
+   1 bulge: nts=5; [0,1]; linked by [#2,#3]
+     nts=5 UGCUA A.U20,A.G21,A.C46,A.U47,A.A48
+       nts=0
+       nts=1 U A.U47
+
+****************************************************************************
+List of 4 non-loop single-stranded segments
+   1 nts=13* GCAUUUGACUGUA A.G5,A.C6,A.A7,A.U8,A.U9,A.U10,A.G11,A.A13,A.C14,A.U15,A.G16,A.U17,A.A18
+   2 nts=3* CAG A.C31,A.A32,A.G37
+   3 nts=3 AAA A.A40,A.A41,A.A42
+   4 nts=4* AAAa A.A50,A.A51,A.A52,A.SAM104
+
+****************************************************************************
+List of 2 A-minor motifs
+   1  type=II A/G-C	A.A41 vs A.G2+A.C27 [WC]
+        +A.G2	H-bonds[0]: ""
+        -A.C27	H-bonds[1]: "N3-O2'(hydroxyl)[2.30]"
+   2  type=I A/G-C	A.A42 vs A.G3+A.C26 [WC]
+        +A.G3	H-bonds[2]: "N1-O2'(hydroxyl)[2.63],N3-N2(amino)[2.78]"
+        -A.C26	H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[3.13],O2'(hydroxyl)-O2(carbonyl)[2.89]"
+
+****************************************************************************
+List of 1 ribose zipper
+   1 nts=4 CCAA A.C26,A.C27,A.A41,A.A42
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>6fz0_chainA nts=48 [whole]
+AGGcGCAUUUG&ACUGUAUUGUACGCCUUGCA&GCAAAAGUACUAAAAA&a
+((((.......&......(((((())))((..&.))...)))).))...&.
+>6fz0_chainA-A #1 nts=48 [chain] RNA*
+AGGcGCAUUUGACUGUAUUGUACGCCUUGCAGCAAAAGUACUAAAAAa
+((((.............(((((())))((...))...)))).))....
+
+****************************************************************************
+List of 8 additional files
+   1 dssr-stems.pdb -- MODEL/ENDMDL delineated stems
+   2 dssr-helices.pdb -- MODEL/ENDMDL delineated helices (pseudo/coaxial)
+   3 dssr-pairs.pdb -- MODEL/ENDMDL delineated base pairs
+   4 dssr-multiplets.pdb -- MODEL/ENDMDL delineated multiplets
+   5 dssr-2ndstrs.ct -- secondary structures in the connect format
+   6 dssr-2ndstrs.dbn -- secondary structures in the dot-bracket notation
+   7 dssr-torsions.dat -- Backbone torsion angles and suite names
+   8 dssr-Aminors.pdb -- MODEL/ENDMDL delineated A minor motifs (type I/II)
