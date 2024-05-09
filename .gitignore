@@ -3,9 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# unnecessary files
+# unnecessary files, third party
 .DS_Store
-
+third_party/
+.vscode/*
 
 # C extensions
 *.so
