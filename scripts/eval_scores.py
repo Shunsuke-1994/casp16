@@ -3,8 +3,32 @@
 import sys
 import os
 import argparse
+import pandas as pd
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-from src.score import cgRNASP
+from src.score import cgRNASP, rsRNASP, DFIRE_RNA, RNA_BRiQ
+
+def summarize_scores(out_dir):
+    """
+    convert the output of the scores to a csv file
+    """
+    score_files = [f for f in os.listdir(out_dir) if f.endswith(".txt")]
+    dict_name = {
+        "energies_cgRNASP.txt": "cgRNASP",
+        "energies_cgRNASP-C.txt": "cgRNASP-C",
+        "energies_cgRNASP-PC.txt": "cgRNASP-PC",
+        "energies_rsRNASP.txt": "rsRNASP",
+        "energies_DFIRERNA.txt": "DFIRE_RNA",
+        "energies_RNABRiQ.txt": "RNA_BRiQ"
+    }
+    
+    for score_file in score_files:
+        df = pd.read_csv(os.path.join(out_dir, score_file), sep="\t", header=None)
+        df.columns = ["pdb", dict_name[score_file]]
+        if score_file == score_files[0]:
+            df_final = df
+        else:
+            df_final = pd.merge(df_final, df, on="pdb")
+    return 
 
 def main():
     parser = argparse.ArgumentParser(description='Evaluate potential scores')
@@ -13,15 +37,24 @@ def main():
     parser.add_argument('--print', help='print output', action='store_true')
     args = parser.parse_args()
 
+    # cgRNASP
     res_cgrnasp = cgRNASP.cgRNASP(args.pdb_dir, args.out_dir)
-    res_cgrnasp_p = cgRNASP.cgRNASP_C(args.pdb_dir, args.out_dir)
+    res_cgrnasp_c = cgRNASP.cgRNASP_C(args.pdb_dir, args.out_dir)
     res_cgrnasp_pc = cgRNASP.cgRNASP_PC(args.pdb_dir, args.out_dir)
-    if args.print:
-        print(res_cgrnasp)
-        print(res_cgrnasp_p)
-        print(res_cgrnasp_pc)
-    return 
+    # rsRNASP
+    res_rsrnasp = rsRNASP.rsRNASP(args.pdb_dir, args.out_dir)
+    # dfire_rna
+    res_dfire = DFIRE_RNA.DFIRE_RNA(args.pdb_dir, args.out_dir)
+    # RNA_BRiQ
+    res_rnabriq = RNA_BRiQ.RNA_BRiQ(args.pdb_dir, args.out_dir)
 
+    if args.print:
+        print("cgRNSP\t:",res_cgrnasp.stdout.decode('utf-8'))
+        print("cgRNASP-C\t:",res_cgrnasp_c.stdout.decode('utf-8'))
+        print("cgRNASP-PC\t:",res_cgrnasp_pc.stdout.decode('utf-8'))
+        print("rsRNASP\t:",res_rsrnasp.stdout.decode('utf-8'))
+        # print("DFIRE_RNA\t:",res_dfire.stdout.decode('utf-8'))
+    return 
 
 if __name__ == '__main__':
     main()

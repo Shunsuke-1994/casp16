@@ -13,8 +13,8 @@ if [ ! -d "RNA-BRiQ" ];then
     cd RNA-BRiQ/build/
     cmake ../
     make
-
-    export BRiQ_DATAPATH=FILEPATH/BRiQ_data    ## Change "FILEPATH" to the real path containing the preprocessed data
+    FILEPATH = $(pwd)
+    export BRiQ_DATAPATH=$FILEPATH/BRiQ_data
     export PATH=$PATH:FILEPATH/BRiQ/build/bin  ## Change "FILEPATH" to the real path containing the compiled codes
 
     # somtimes fail???
@@ -55,7 +55,8 @@ fi
 # https://github.com/tcgriffith/dfire_rna
 if [ ! -d "RASP" ];then
     git clone https://github.com/tcgriffith/dfire_rna.git
-    cd dfire_rna && make # might be necessary to "install llvm libomp"
+    cd dfire_rna && make 
+    ./install.sh
     cd $PARENT_DIR/third_party
 fi
 

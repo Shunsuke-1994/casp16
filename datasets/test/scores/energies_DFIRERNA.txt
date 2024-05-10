@@ -1,0 +1,2 @@
+./datasets/test/4_adamiak_1_rpr.pdb -1538.533567  
+./datasets/test/2_bujnicki_1_rpr.pdb -61252.802430  
