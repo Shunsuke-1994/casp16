@@ -13,14 +13,14 @@ if [ ! -d "RNA-BRiQ" ];then
     cd RNA-BRiQ/build/
     cmake ../
     make
+    cd ../
     FILEPATH = $(pwd)
-    export BRiQ_DATAPATH=$FILEPATH/BRiQ_data
-    export PATH=$PATH:FILEPATH/BRiQ/build/bin  ## Change "FILEPATH" to the real path containing the compiled codes
+    export BRiQ_DATAPATH=$FILEPATH/RNA-BRiQ/BRiQ_data
+    export PATH=$PATH:$FILEPATH/BRiQ/build/bin  ## Change "FILEPATH" to the real path containing the compiled codes
 
     # somtimes fail???
     wget https://apisz.sparks-lab.org:8443/downloads/Resource/RNA/2_RNA_structure_prediction/RNA-BRiQ-data.tar.gz
     tar -xvz RNA-BRiQ-data.tar.gz --one-top-level=$BRiQ_DATAPATH
-
 fi
 
 cd $PARENT_DIR/third_party

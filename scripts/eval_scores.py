@@ -13,17 +13,25 @@ def summarize_scores(out_dir):
     """
     score_files = [f for f in os.listdir(out_dir) if f.endswith(".txt")]
     dict_name = {
-        "energies_cgRNASP.txt": "cgRNASP",
-        "energies_cgRNASP-C.txt": "cgRNASP-C",
-        "energies_cgRNASP-PC.txt": "cgRNASP-PC",
-        "energies_rsRNASP.txt": "rsRNASP",
+        "energies_cgRNASP.txt": "cgRNASP[kBT]",
+        "energies_cgRNASP-C.txt": "cgRNASP-C[kBT]",
+        "energies_cgRNASP-PC.txt": "cgRNASP-PC[kBT]",
+        "energies_rsRNASP.txt": "rsRNASP[kBT]",
         "energies_DFIRERNA.txt": "DFIRE_RNA",
         "energies_RNABRiQ.txt": "RNA_BRiQ"
     }
     
     for score_file in score_files:
-        df = pd.read_csv(os.path.join(out_dir, score_file), sep="\t", header=None)
-        df.columns = ["pdb", dict_name[score_file]]
+        if "RNASP" in score_file:
+            df = pd.read_table(os.path.join(out_dir, score_file), sep="     ", header=None)
+            df.columns = ["pdb", dict_name[score_file]]
+        elif score_file == "energies_DFIRERNA.txt":
+            df = pd.read_table(os.path.join(out_dir, score_file), sep=" ", header=None)
+            df.columns = ["pdb", dict_name[score_file]]
+            df["pdb"] = [f.split("/")[-1].split(".")[0] for f in df["pdb"]]
+        elif score_file == "energies_RNABRiQ.txt":
+            pass
+        
         if score_file == score_files[0]:
             df_final = df
         else:
