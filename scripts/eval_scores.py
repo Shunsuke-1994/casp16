@@ -65,9 +65,13 @@ def main():
 
     if args.print:
         print("cgRNSP\t:",res_cgrnasp.stdout.decode('utf-8'))
+        # print("cgRNASP\t:",res_cgrnasp.stderr.decode('utf-8'))
         print("cgRNASP-C\t:",res_cgrnasp_c.stdout.decode('utf-8'))
+        # print("cgRNASP-C\t:",res_cgrnasp_c.stderr.decode('utf-8'))
         print("cgRNASP-PC\t:",res_cgrnasp_pc.stdout.decode('utf-8'))
+        # print("cgRNASP-PC\t:",res_cgrnasp_pc.stderr.decode('utf-8'))
         print("rsRNASP\t:",res_rsrnasp.stdout.decode('utf-8'))
+        # print("rsRNASP\t:",res_rsrnasp.stderr.decode('utf-8'))
         # print("DFIRE_RNA\t:",res_dfire.stdout.decode('utf-8'))
 
     summarize_scores(args.out_dir)

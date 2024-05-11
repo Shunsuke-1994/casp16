@@ -1,0 +1,5 @@
+./datasets/casp16/R1203_newMXfold2_pdb/cluster_model/S_4.pdb -107330.255580  
+./datasets/casp16/R1203_newMXfold2_pdb/cluster_model/S_0.pdb -107480.898934  
+./datasets/casp16/R1203_newMXfold2_pdb/cluster_model/S_1.pdb -109213.715645  
+./datasets/casp16/R1203_newMXfold2_pdb/cluster_model/S_3.pdb -112317.013078  
+./datasets/casp16/R1203_newMXfold2_pdb/cluster_model/S_2.pdb -109108.637626  
