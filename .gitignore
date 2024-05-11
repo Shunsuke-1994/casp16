@@ -8,6 +8,9 @@ __pycache__/
 third_party/
 .vscode/*
 
+# data
+e./datasets/casp16/*/*
+
 # C extensions
 *.so
 
