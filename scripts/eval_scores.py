@@ -35,8 +35,9 @@ def summarize_scores(out_dir):
             df.columns = ["pdb", dict_name[score_file], "0", "1"]
             df.drop(columns=["0", "1"], inplace=True)
             df["pdb"] = [f.split("/")[-1] for f in df["pdb"]]
-        # elif score_file == "energies_RNABRiQ.txt":
-        #     break
+        elif score_file == "energies_RNABRiQ.txt":
+            df = pd.read_table(os.path.join(out_dir, score_file), sep=" ")
+            df.columns = ["pdb", dict_name[score_file]]
 
         if score_file == score_files[0]:
             df_all = df
@@ -61,7 +62,7 @@ def main():
     # dfire_rna
     res_dfire = DFIRE_RNA.DFIRE_RNA(args.pdb_dir, args.out_dir)
     # RNA_BRiQ
-    # res_rnabriq = RNA_BRiQ.RNA_BRiQ(args.pdb_dir, args.out_dir)
+    res_rnabriq = RNA_BRiQ.RNA_BRiQ_batch(args.pdb_dir, args.out_dir)
 
     if args.print:
         print("cgRNSP\t:",res_cgrnasp.stdout.decode('utf-8'))
