@@ -31,7 +31,7 @@ class RNA_BRiQ:
         """
         Evaluate the potential of the RNA structure
         """
-        cmd_eval_energy = f"EnergyEvaluation {self.briq_input} {self.input_pdb} > {self.briq_output}"
+        cmd_eval_energy = f"BRiQ_Evaluate {self.briq_input} > {self.briq_output}"
         res = subprocess.run(cmd_eval_energy, shell = True, capture_output=True)
         with open(self.briq_output, "r") as f:
             lines = f.readlines()
