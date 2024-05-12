@@ -22,7 +22,10 @@ class RNA_BRiQ:
         return
     
     def Refinement(self):
-        return
+        briq_refinement_pdb = self.briq_input.replace(".briq.in", ".briq.refined.pdb")
+        cmd = f"BRiQ_Refinement {self.briq_input} {briq_refinement_pdb} {self.random_seed}"
+        res = subprocess.run(cmd, shell = True, capture_output=True)
+        return res
     
     def Predict(self):
         return
@@ -39,7 +42,7 @@ class RNA_BRiQ:
         return float(lines[-1].strip().replace("Energy: ", ""))
     
     
-def RNA_BRiQ_batch(pdb_dir, out_dir):
+def RNA_BRiQ_eval_batch(pdb_dir, out_dir):
     """
     input_dir: str
         the directory where the pdb files are stored
@@ -54,6 +57,23 @@ def RNA_BRiQ_batch(pdb_dir, out_dir):
     df = pd.DataFrame({"pdb": pdb_files, "energy": energies})
     df.to_csv(os.path.join(out_dir, "energies_RNABRiQ.txt"), index = False, sep=" ")
     return
+
+
+def RNA_BRiQ_refinement_batch(pdb_dir, out_dir):
+    """
+    input_dir: str
+        the directory where the pdb files are stored
+    """
+    pdb_files = [f for f in os.listdir(pdb_dir) if f.endswith(".pdb")]
+    energies = []
+    for pdb_file in pdb_files:
+        briq = RNA_BRiQ(os.path.join(pdb_dir, pdb_file))
+        briq.AssignSS()
+        briq.Refinement()
+        # energies.append(briq.Evaluate())
+
+    return
+
 if __name__ == "__main__":
     # pdb_file = "/Users/sumishunsuke/Desktop/RNA/casp16/third_party/RNA-BRiQ/test/S_000001.pdb"
     # briq = RNA_BRiQ(pdb_file)
@@ -62,5 +82,5 @@ if __name__ == "__main__":
 
     pdb_dir = "/Users/sumishunsuke/Desktop/RNA/casp16/third_party/RNA-BRiQ/test"
     out_dir = "/Users/sumishunsuke/Desktop/RNA/casp16/third_party/RNA-BRiQ/test"
-    RNA_BRiQ_batch(pdb_dir, out_dir)
-
+    # RNA_BRiQ_eval_batch(pdb_dir, out_dir)
+    RNA_BRiQ_refinement_batch(pdb_dir, out_dir)
