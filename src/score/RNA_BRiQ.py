@@ -1,6 +1,8 @@
 import os
 import subprocess
 import pandas as pd
+from multiprocessing import Pool
+
 
 class RNA_BRiQ:
     def __init__(self, input_pdb, random_seed = 42):
@@ -42,20 +44,22 @@ class RNA_BRiQ:
         return float(lines[-1].strip().replace("Energy: ", ""))
     
     
-def RNA_BRiQ_eval_batch(pdb_dir, out_dir):
-    """
-    input_dir: str
-        the directory where the pdb files are stored
-    """
-    pdb_files = [f for f in os.listdir(pdb_dir) if f.endswith(".pdb")]
-    energies = []
-    for pdb_file in pdb_files:
-        briq = RNA_BRiQ(os.path.join(pdb_dir, pdb_file))
-        briq.AssignSS()
-        energies.append(briq.Evaluate())
+def process_pdb_file_eval(pdb_file):
+    briq = RNA_BRiQ(pdb_file)
+    briq.AssignSS()
+    energy = briq.Evaluate()
+    return os.path.basename(pdb_file), energy
 
-    df = pd.DataFrame({"pdb": pdb_files, "energy": energies})
-    df.to_csv(os.path.join(out_dir, "energies_RNABRiQ.txt"), index = False, sep=" ")
+def RNA_BRiQ_eval_batch(pdb_dir, out_dir):
+    """ input_dir: str the directory where the pdb files are stored """
+    pdb_files = [os.path.join(pdb_dir, f) for f in os.listdir(pdb_dir) if f.endswith(".pdb")]
+    print(os.listdir(pdb_dir)[:4])
+    with Pool(7) as pool:
+        results = pool.map(process_pdb_file_eval, pdb_files)
+    
+    pdb_names, energies = zip(*results)
+    df = pd.DataFrame({"pdb": pdb_names, "energy": energies})
+    df.to_csv(os.path.join(out_dir, "energies_RNABRiQ.txt"), index=False, sep=" ")
     return
 
 
@@ -80,7 +84,7 @@ if __name__ == "__main__":
     # briq.AssignSS()
     # print(briq.Evaluate())
 
-    pdb_dir = "/Users/sumishunsuke/Desktop/RNA/casp16/third_party/RNA-BRiQ/test"
-    out_dir = "/Users/sumishunsuke/Desktop/RNA/casp16/third_party/RNA-BRiQ/test"
+    pdb_dir = "/Users/sumishunsuke/Desktop/RNA/casp16/datasets/casp16/R1203_newMXfold2_pdb/AF3_FF2_HybridStructures"
+    out_dir = "/Users/sumishunsuke/Desktop/RNA/casp16/datasets/casp16/R1203_newMXfold2_pdb/AF3_FF2_HybridStructures/scores"
     # RNA_BRiQ_eval_batch(pdb_dir, out_dir)
-    RNA_BRiQ_refinement_batch(pdb_dir, out_dir)
+    RNA_BRiQ_eval_batch(pdb_dir, out_dir)

@@ -54,26 +54,26 @@ def main():
     args = parser.parse_args()
 
     # cgRNASP
-    res_cgrnasp = cgRNASP.cgRNASP(args.pdb_dir, args.out_dir)
-    res_cgrnasp_c = cgRNASP.cgRNASP_C(args.pdb_dir, args.out_dir)
-    res_cgrnasp_pc = cgRNASP.cgRNASP_PC(args.pdb_dir, args.out_dir)
+    # res_cgrnasp = cgRNASP.cgRNASP(args.pdb_dir, args.out_dir)
+    # res_cgrnasp_c = cgRNASP.cgRNASP_C(args.pdb_dir, args.out_dir)
+    # res_cgrnasp_pc = cgRNASP.cgRNASP_PC(args.pdb_dir, args.out_dir)
     # rsRNASP
-    res_rsrnasp = rsRNASP.rsRNASP(args.pdb_dir, args.out_dir)
+    # res_rsrnasp = rsRNASP.rsRNASP(args.pdb_dir, args.out_dir)
     # dfire_rna
-    res_dfire = DFIRE_RNA.DFIRE_RNA(args.pdb_dir, args.out_dir)
+    # res_dfire = DFIRE_RNA.DFIRE_RNA(args.pdb_dir, args.out_dir)
     # RNA_BRiQ
     res_rnabriq = RNA_BRiQ.RNA_BRiQ_eval_batch(args.pdb_dir, args.out_dir)
 
-    if args.print:
-        print("cgRNSP\t:",res_cgrnasp.stdout.decode('utf-8'))
-        # print("cgRNASP\t:",res_cgrnasp.stderr.decode('utf-8'))
-        print("cgRNASP-C\t:",res_cgrnasp_c.stdout.decode('utf-8'))
-        # print("cgRNASP-C\t:",res_cgrnasp_c.stderr.decode('utf-8'))
-        print("cgRNASP-PC\t:",res_cgrnasp_pc.stdout.decode('utf-8'))
-        # print("cgRNASP-PC\t:",res_cgrnasp_pc.stderr.decode('utf-8'))
-        print("rsRNASP\t:",res_rsrnasp.stdout.decode('utf-8'))
-        # print("rsRNASP\t:",res_rsrnasp.stderr.decode('utf-8'))
-        # print("DFIRE_RNA\t:",res_dfire.stdout.decode('utf-8'))
+    # if args.print:
+    #     print("cgRNSP\t:",res_cgrnasp.stdout.decode('utf-8'))
+    #     # print("cgRNASP\t:",res_cgrnasp.stderr.decode('utf-8'))
+    #     print("cgRNASP-C\t:",res_cgrnasp_c.stdout.decode('utf-8'))
+    #     # print("cgRNASP-C\t:",res_cgrnasp_c.stderr.decode('utf-8'))
+    #     print("cgRNASP-PC\t:",res_cgrnasp_pc.stdout.decode('utf-8'))
+    #     # print("cgRNASP-PC\t:",res_cgrnasp_pc.stderr.decode('utf-8'))
+    #     print("rsRNASP\t:",res_rsrnasp.stdout.decode('utf-8'))
+    #     # print("rsRNASP\t:",res_rsrnasp.stderr.decode('utf-8'))
+    #     # print("DFIRE_RNA\t:",res_dfire.stdout.decode('utf-8'))
 
     summarize_scores(args.out_dir)
     return 
