@@ -12,11 +12,11 @@ def calculate_rmsd(args):
     sup = Superimposer()
 
     pdb_dir, pdb_files, i, j = args
-    if (i == j) and (i%10 == 0):
-        return i
+    if (i == j+1) and (i%10 == 0):
+        print(f"Calculating RMSD for {i}th pdb file")
     structure1 = parser.get_structure('X', os.path.join(pdb_dir, pdb_files[i]))
     atoms1 = list(structure1.get_atoms()) #[atom for atom in structure1.get_atoms()]
-    structure2 = parser.get_structure('X', os.path.join(pdb_dir, pdb_files[j]))
+    structure2 = parser.get_structure('Y', os.path.join(pdb_dir, pdb_files[j]))
     atoms2 = list(structure2.get_atoms())
     sup.set_atoms(atoms1, atoms2)
     sup.apply(atoms2)
@@ -35,6 +35,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     pdb_files = [f for f in os.listdir(args.pdb_dir) if f.endswith(".pdb")]
+    pdb_files.sort()
+    print(pdb_files[:5])
     n = len(pdb_files)
     # n = 60
     print(f"Number of pdb files: {n}")
@@ -48,7 +50,7 @@ if __name__ == '__main__':
         rmsd_matrix[i, j] = rmsd
         rmsd_matrix[j, i] = rmsd
 
-    np.save(os.path.join(args.pdb_dir, "rmsd_matrix.npy"), rmsd_matrix)
+    np.save(os.path.join(args.pdb_dir, "rmsd_matrix_sorted_id.npy"), rmsd_matrix)
     print("RMSD matrix saved")
 
 
