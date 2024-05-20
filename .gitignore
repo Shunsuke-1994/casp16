@@ -9,7 +9,7 @@ third_party/
 .vscode/*
 
 # data
-datasets/casp16
+datasets/
 
 # C extensions
 *.so
