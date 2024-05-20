@@ -25,17 +25,17 @@ def summarize_scores(out_dir):
     
     for score_file in score_files:
 
-        if "RNASP" in score_file:
-            df = pd.read_table(os.path.join(out_dir, score_file), sep="     ", header=None)
-            df.columns = ["pdb", dict_name[score_file]]
-            df[dict_name[score_file]] = [float(f.split(" ")[0]) for f in df[dict_name[score_file]]] # remove the unit
-        elif score_file == "energies_DFIRERNA.txt":
-             # ignore last "  "
-            df = pd.read_table(os.path.join(out_dir, score_file), sep=" ", header=None)
-            df.columns = ["pdb", dict_name[score_file], "0", "1"]
-            df.drop(columns=["0", "1"], inplace=True)
-            df["pdb"] = [f.split("/")[-1] for f in df["pdb"]]
-        elif score_file == "energies_RNABRiQ.txt":
+        # if "RNASP" in score_file:
+        #     df = pd.read_table(os.path.join(out_dir, score_file), sep="     ", header=None)
+        #     df.columns = ["pdb", dict_name[score_file]]
+        #     df[dict_name[score_file]] = [float(f.split(" ")[0]) for f in df[dict_name[score_file]]] # remove the unit
+        # elif score_file == "energies_DFIRERNA.txt":
+        #      # ignore last "  "
+        #     df = pd.read_table(os.path.join(out_dir, score_file), sep=" ", header=None)
+        #     df.columns = ["pdb", dict_name[score_file], "0", "1"]
+        #     df.drop(columns=["0", "1"], inplace=True)
+        #     df["pdb"] = [f.split("/")[-1] for f in df["pdb"]]
+        if score_file == "energies_RNABRiQ.txt":
             df = pd.read_table(os.path.join(out_dir, score_file), sep=" ")
             df.columns = ["pdb", dict_name[score_file]]
 
