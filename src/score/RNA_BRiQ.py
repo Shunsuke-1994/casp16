@@ -15,6 +15,7 @@ class RNA_BRiQ:
         """BRiQ_AssignSS $INPUTPDB $OUTFILE"""
         cmd = f"BRiQ_AssignSS {self.input_pdb} {self.briq_input}"
         res = subprocess.run(cmd, shell = True, capture_output=True)
+        # print(res)
         # add 1 line at the top of the file
         with open(self.briq_input, "r") as f:
             lines = f.readlines()
