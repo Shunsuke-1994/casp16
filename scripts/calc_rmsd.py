@@ -12,7 +12,7 @@ def calculate_rmsd(args):
     sup = Superimposer()
 
     pdb_dir, pdb_files, i, j = args
-    if (i == j+1) and (i%10 == 0):
+    if (j == i+1) and (i%10 == 0):
         print(f"Calculating RMSD for {i}th pdb file")
     structure1 = parser.get_structure('X', os.path.join(pdb_dir, pdb_files[i]))
     atoms1 = list(structure1.get_atoms()) #[atom for atom in structure1.get_atoms()]
