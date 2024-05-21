@@ -6,6 +6,7 @@ __pycache__/
 # unnecessary files, third party
 .DS_Store
 third_party/
+third_party*
 .vscode/*
 
 # data
