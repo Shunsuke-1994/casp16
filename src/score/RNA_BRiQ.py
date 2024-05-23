@@ -2,7 +2,7 @@ import os
 import subprocess
 import pandas as pd
 from multiprocessing import Pool
-
+import time 
 
 class RNA_BRiQ:
     def __init__(self, input_pdb, random_seed = 42):
@@ -39,10 +39,10 @@ class RNA_BRiQ:
         """
         cmd_eval_energy = f"BRiQ_Evaluate {self.briq_input} > {self.briq_output}"
         res = subprocess.run(cmd_eval_energy, shell = True, capture_output=True)
-        with open(self.briq_output, "r") as f:
-            lines = f.readlines()
+        # with open(self.briq_output, "r") as f:
+        #     lines = f.readlines()
 
-        return float(lines[-1].strip().replace("Energy: ", ""))
+        # return float(lines[-1].strip().replace("Energy: ", ""))
     
     
 def process_pdb_file_eval(pdb_file):
@@ -56,9 +56,21 @@ def RNA_BRiQ_eval_batch(pdb_dir, out_dir):
     pdb_files = [os.path.join(pdb_dir, f) for f in os.listdir(pdb_dir) if f.endswith(".pdb")]
     print(os.listdir(pdb_dir)[:4])
     with Pool(7) as pool:
-        results = pool.map(process_pdb_file_eval, pdb_files)
+        _ = pool.map(process_pdb_file_eval, pdb_files)
+
+
+    out_files = [f for f in os.listdir(pdb_dir) if f.endswith(".briq.out")]
+    pdbs_energies = []
+    for out_file in out_files:
+        with open(os.path.join(out_file, f), "r") as f:
+            lines = f.readlines()
+        energy = float(lines[-1].strip().replace("Energy: ", ""))
+        pdbs_energies.append(
+            (out_file.replace(".briq.out", ""), energy)
+            )
+
     
-    pdb_names, energies = zip(*results)
+    pdb_names, energies = zip(*pdbs_energies)
     df = pd.DataFrame({"pdb": pdb_names, "energy": energies})
     df.to_csv(os.path.join(out_dir, "energies_RNABRiQ.txt"), index=False, sep=" ")
     return
