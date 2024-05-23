@@ -4,15 +4,15 @@ from Bio.PDB import PDBParser, Superimposer
 from multiprocessing import Pool
 
 
-def calculate_rmsd(args):
+def calculate_rmsd(params):
     import warnings
     warnings.filterwarnings('ignore')
 
     parser = PDBParser()
     sup = Superimposer()
 
-    pdb_dir, pdb_files, i, j = args
-    if (j == i+1) and (i%10 == 0):
+    pdb_dir, pdb_files, i, j, print_every = params
+    if (j == i+1) and (i%print_every == 0):
         print(f"Calculating RMSD for {i}th pdb file")
     structure1 = parser.get_structure('X', os.path.join(pdb_dir, pdb_files[i]))
     atoms1 = list(structure1.get_atoms()) #[atom for atom in structure1.get_atoms()]
@@ -32,6 +32,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Calculate RMSD')
     parser.add_argument('--pdb_dir', help='directory of pdb files')
     parser.add_argument('--cpu', help='number of cpus', default=7, type=int)
+    parser.add_argument("--print_every", help="print every n pdb files", default=10, type=int)
     args = parser.parse_args()
 
     pdb_files = [f for f in os.listdir(args.pdb_dir) if f.endswith(".pdb")]
@@ -44,7 +45,7 @@ if __name__ == '__main__':
     print(f"Calculating RMSD matrix {n}x{n} using {args.cpu} cpus")
 
     with Pool(args.cpu) as pool:
-        results = pool.map(calculate_rmsd, [(args.pdb_dir, pdb_files, i, j) for i in range(n) for j in range(i+1, n)])
+        results = pool.map(calculate_rmsd, [(args.pdb_dir, pdb_files, i, j, args.print_every) for i in range(n) for j in range(i+1, n)])
 
     for i, j, rmsd in results:
         rmsd_matrix[i, j] = rmsd
