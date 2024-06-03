@@ -6,10 +6,13 @@
     export PATH=$PATH:$FILEPATH/BRiQ/build/bin  ## Change "FILEPATH" to the real path containing the compiled codes
 ```
 RNA-BRiQ以外は使わないのでコメントアウトしてある.  
+RNA-BRiQに、 `BRiQ_Evaluate` というコマンドを使えるようにするために, tmpからRNA-BRiQ/execにcpするようになっている.  
 動かす際には、
 ```
 bash setup_third_parties.sh
 ```
+で諸々入るはず(ほとんどRNA-BRiQのreadmeと同じ).  
+
 ## scripts
 ```
 scripts
@@ -22,12 +25,12 @@ scripts
 │   └── run_dssr_recursive.py
 └── run_briq_refine_batch.sh
 ```
-各targetに対して, `eval_scores.py`と`calc_rmsd.py` を動かす.  
 `eval_scores.py` は、`src/RNA_BRiQ.py` を動かしている.  
 他のfileは無視してください.  
 
 ## notebooks
 targetごとにnotebookを作成して解析している.  
+各targetに対して, `eval_scores.py`と`calc_rmsd.py` を動かす.  
 
 ## datasests
 `datasets/casp16/R12**/pdb` の下にpdbファイルがあるようにしてある.  
