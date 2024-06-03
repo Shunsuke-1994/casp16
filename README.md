@@ -1,6 +1,7 @@
 # caps16 
 ## setup
-`setup_third_parties.sh` の以下の部分を書き換えて動かす. 
+ほとんどRNA-BRiQのreadmeの記述と同一.  
+`setup_third_parties.sh` の以下の部分, FILEPATH=$(pwd)となるようにしてある.  
 ```
     export BRiQ_DATAPATH=$FILEPATH/RNA-BRiQ/BRiQ_data
     export PATH=$PATH:$FILEPATH/BRiQ/build/bin  ## Change "FILEPATH" to the real path containing the compiled codes
