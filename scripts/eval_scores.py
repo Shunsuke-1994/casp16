@@ -51,6 +51,7 @@ def main():
     parser.add_argument('--pdb_dir', help='directory of pdb files')
     parser.add_argument('--out_dir', help='output directory')
     parser.add_argument('--print', help='print output', action='store_true')
+    parser.add_argument('--cpu', help='cpus', type=int, default=7)
     args = parser.parse_args()
 
     # cgRNASP
@@ -62,7 +63,7 @@ def main():
     # dfire_rna
     # res_dfire = DFIRE_RNA.DFIRE_RNA(args.pdb_dir, args.out_dir)
     # RNA_BRiQ
-    res_rnabriq = RNA_BRiQ.RNA_BRiQ_eval_batch(args.pdb_dir, args.out_dir)
+    res_rnabriq = RNA_BRiQ.RNA_BRiQ_eval_batch(args.pdb_dir, args.out_dir, args.cpu)
 
     # if args.print:
     #     print("cgRNSP\t:",res_cgrnasp.stdout.decode('utf-8'))

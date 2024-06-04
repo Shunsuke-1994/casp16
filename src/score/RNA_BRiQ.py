@@ -51,11 +51,11 @@ def process_pdb_file_eval(pdb_file):
     energy = briq.Evaluate()
     return os.path.basename(pdb_file), energy
 
-def RNA_BRiQ_eval_batch(pdb_dir, out_dir):
+def RNA_BRiQ_eval_batch(pdb_dir, out_dir, cpu=7):
     """ input_dir: str the directory where the pdb files are stored """
     pdb_files = [os.path.join(pdb_dir, f) for f in os.listdir(pdb_dir) if f.endswith(".pdb")]
     print(os.listdir(pdb_dir)[:4])
-    with Pool(7) as pool:
+    with Pool(cpu) as pool:
         _ = pool.map(process_pdb_file_eval, pdb_files)
 
 
