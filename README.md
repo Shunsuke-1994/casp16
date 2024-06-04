@@ -36,8 +36,9 @@ python scripts/eval_scores.py \
     --print \
     --cpu 2
 ```
-`datasets/R1212` にbriq入力ファイルとその出力が出てくる(.briq.in, .briq.out).  
-.briq.outの最後の行にエネルギーの記載がある.  
+`pdb_dir`にある全てのpdbファイルに対して, RNA-BRiQを実行する.  
+`out_dir` にbriq入力ファイルとその出力が出てくる(.briq.in, .briq.out).  
+.briq.outの最後の行にエネルギーの記載があるのでそれを読み込んでtxt,csvに書き出す.  
 
 ### `scripts/calc_rmsd.py`
 ```
@@ -46,7 +47,7 @@ python scripts/calc_rmsd.py \
     --cpu 2 \
     --print_every 10
 ```
-(N,N)の距離行列を計算する. print_enery毎にprintする.  
+`pdb_dir` の全てのpdbファイルに対して, (N,N)の距離行列を計算する. print_enery毎にprintする.  
 pdb_dirに, pdb idでソートされた距離行列がnpy, dfで出力される.  
 
 
