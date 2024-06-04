@@ -1,0 +1,2078 @@
+init energy table:
+init folding tree
+rot lib
+frag lib
+pdb test/S_000126.pdb
+seq GUGAUAUUUCGGGUAAUCGCUAUAUUAUAUAGAGGAAAGUCCAUGCUCACACAGUCUGAGAUGAUUGUAGUGUUCGUGCUUGAUGAAACAAUAAAUCAAGGCAUUAAUUUGACGGCAAUGAAAUAUCCUAAGUCUUUCGAUAUGGAUAGAGUAAUUUGAAAGUGCCACAGUGACGUAGCUUUUAUAGAAAUAUAAAAGGUGGAACGCGGUAAACCCCUCGAGUGAGCAAUCCAAAUUUGGUAGGAGCACUUGUUUAACGGAAUUCAACGUAUAAACGAGACACACUUCGCGAAAUGAAGUGGUGUAGACAGAUGGUUAUCACCUGAGUACCAGUGUGACUAGUGCACGUGAUGAGUACGAUGGAACAGAACAUGGCUUAUAGAAAUAUCACUACUAGU
+sec ((((((((((.(((((((.(((((...))))).[...{{.{{{{{(((((((((((......)))))).....(((.(((((((..........))))))(((......)).)((........(((((...(((....)))..))))).(......).....((((.(.(...(.((.((((((((....)))))))).)))..)).))))...))).))))))))...(((..........)))...(((((((((((........))).))))))))((((((((((.....)))))).))))........))))))).((...(((((((((((.......)))))..)).))))...))..]....}}}}}}}....)))))))))).......
+nwc ..........(.....................(.([....................([{<).........()....(.......(((...)).).........((.).)......(..(.).......(.(....()....)).......()..............(...((.....(........(..)........)...))..)......)...)........()(...((((..))))...).............(]}>...)............................................[...........(((...........((..).)..............)))...)..)]........].)..................
+node: 0 2
+node: 1 1
+node: 2 2
+node: 3 0
+node: 4 1
+node: 5 0
+node: 6 1
+node: 7 1
+node: 8 1
+node: 9 3
+node: 10 2
+node: 11 2
+node: 12 2
+node: 13 1
+node: 14 0
+node: 15 0
+node: 16 1
+node: 17 3
+node: 18 2
+node: 19 3
+node: 20 1
+node: 21 0
+node: 22 1
+node: 23 0
+node: 24 1
+node: 25 1
+node: 26 0
+node: 27 1
+node: 28 0
+node: 29 1
+node: 30 0
+node: 31 2
+node: 32 0
+node: 33 2
+node: 34 2
+node: 35 0
+node: 36 0
+node: 37 0
+node: 38 2
+node: 39 1
+node: 40 3
+node: 41 3
+node: 42 0
+node: 43 1
+node: 44 2
+node: 45 3
+node: 46 1
+node: 47 3
+node: 48 0
+node: 49 3
+node: 50 0
+node: 51 3
+node: 52 0
+node: 53 2
+node: 54 1
+node: 55 3
+node: 56 1
+node: 57 2
+node: 58 0
+node: 59 2
+node: 60 0
+node: 61 1
+node: 62 2
+node: 63 0
+node: 64 1
+node: 65 1
+node: 66 2
+node: 67 1
+node: 68 0
+node: 69 2
+node: 70 1
+node: 71 2
+node: 72 1
+node: 73 1
+node: 74 3
+node: 75 2
+node: 76 1
+node: 77 2
+node: 78 3
+node: 79 1
+node: 80 1
+node: 81 2
+node: 82 0
+node: 83 1
+node: 84 2
+node: 85 0
+node: 86 0
+node: 87 0
+node: 88 3
+node: 89 0
+node: 90 0
+node: 91 1
+node: 92 0
+node: 93 0
+node: 94 0
+node: 95 1
+node: 96 3
+node: 97 0
+node: 98 0
+node: 99 2
+node: 100 2
+node: 101 3
+node: 102 0
+node: 103 1
+node: 104 1
+node: 105 0
+node: 106 0
+node: 107 1
+node: 108 1
+node: 109 1
+node: 110 2
+node: 111 0
+node: 112 3
+node: 113 2
+node: 114 2
+node: 115 3
+node: 116 0
+node: 117 0
+node: 118 1
+node: 119 2
+node: 120 0
+node: 121 0
+node: 122 0
+node: 123 1
+node: 124 0
+node: 125 1
+node: 126 3
+node: 127 3
+node: 128 1
+node: 129 0
+node: 130 0
+node: 131 2
+node: 132 1
+node: 133 3
+node: 134 1
+node: 135 1
+node: 136 1
+node: 137 3
+node: 138 2
+node: 139 0
+node: 140 1
+node: 141 0
+node: 142 1
+node: 143 2
+node: 144 2
+node: 145 0
+node: 146 1
+node: 147 0
+node: 148 2
+node: 149 0
+node: 150 2
+node: 151 1
+node: 152 0
+node: 153 0
+node: 154 1
+node: 155 1
+node: 156 1
+node: 157 2
+node: 158 0
+node: 159 0
+node: 160 0
+node: 161 2
+node: 162 1
+node: 163 2
+node: 164 3
+node: 165 3
+node: 166 0
+node: 167 3
+node: 168 0
+node: 169 2
+node: 170 1
+node: 171 2
+node: 172 0
+node: 173 3
+node: 174 2
+node: 175 1
+node: 176 0
+node: 177 2
+node: 178 3
+node: 179 1
+node: 180 1
+node: 181 1
+node: 182 1
+node: 183 0
+node: 184 1
+node: 185 0
+node: 186 2
+node: 187 0
+node: 188 0
+node: 189 0
+node: 190 1
+node: 191 0
+node: 192 1
+node: 193 0
+node: 194 0
+node: 195 0
+node: 196 0
+node: 197 2
+node: 198 2
+node: 199 1
+node: 200 2
+node: 201 2
+node: 202 0
+node: 203 0
+node: 204 3
+node: 205 2
+node: 206 3
+node: 207 2
+node: 208 2
+node: 209 1
+node: 210 0
+node: 211 0
+node: 212 0
+node: 213 3
+node: 214 3
+node: 215 3
+node: 216 3
+node: 217 1
+node: 218 3
+node: 219 2
+node: 220 0
+node: 221 2
+node: 222 1
+node: 223 2
+node: 224 0
+node: 225 2
+node: 226 3
+node: 227 0
+node: 228 0
+node: 229 1
+node: 230 3
+node: 231 3
+node: 232 0
+node: 233 0
+node: 234 0
+node: 235 1
+node: 236 1
+node: 237 1
+node: 238 2
+node: 239 2
+node: 240 1
+node: 241 0
+node: 242 2
+node: 243 2
+node: 244 0
+node: 245 2
+node: 246 3
+node: 247 0
+node: 248 3
+node: 249 1
+node: 250 1
+node: 251 2
+node: 252 1
+node: 253 1
+node: 254 1
+node: 255 0
+node: 256 0
+node: 257 3
+node: 258 2
+node: 259 2
+node: 260 0
+node: 261 0
+node: 262 1
+node: 263 1
+node: 264 3
+node: 265 0
+node: 266 0
+node: 267 3
+node: 268 2
+node: 269 1
+node: 270 0
+node: 271 1
+node: 272 0
+node: 273 0
+node: 274 0
+node: 275 3
+node: 276 2
+node: 277 0
+node: 278 2
+node: 279 0
+node: 280 3
+node: 281 0
+node: 282 3
+node: 283 0
+node: 284 3
+node: 285 1
+node: 286 1
+node: 287 3
+node: 288 2
+node: 289 3
+node: 290 2
+node: 291 0
+node: 292 0
+node: 293 0
+node: 294 1
+node: 295 2
+node: 296 0
+node: 297 0
+node: 298 2
+node: 299 1
+node: 300 2
+node: 301 2
+node: 302 1
+node: 303 2
+node: 304 1
+node: 305 0
+node: 306 2
+node: 307 0
+node: 308 3
+node: 309 0
+node: 310 2
+node: 311 0
+node: 312 1
+node: 313 2
+node: 314 2
+node: 315 1
+node: 316 1
+node: 317 0
+node: 318 1
+node: 319 3
+node: 320 0
+node: 321 3
+node: 322 3
+node: 323 1
+node: 324 2
+node: 325 0
+node: 326 2
+node: 327 1
+node: 328 0
+node: 329 3
+node: 330 3
+node: 331 0
+node: 332 2
+node: 333 1
+node: 334 2
+node: 335 1
+node: 336 2
+node: 337 0
+node: 338 3
+node: 339 1
+node: 340 0
+node: 341 2
+node: 342 1
+node: 343 2
+node: 344 3
+node: 345 0
+node: 346 3
+node: 347 2
+node: 348 1
+node: 349 2
+node: 350 0
+node: 351 1
+node: 352 2
+node: 353 0
+node: 354 2
+node: 355 1
+node: 356 0
+node: 357 3
+node: 358 2
+node: 359 0
+node: 360 1
+node: 361 2
+node: 362 2
+node: 363 0
+node: 364 0
+node: 365 3
+node: 366 0
+node: 367 2
+node: 368 0
+node: 369 0
+node: 370 3
+node: 371 0
+node: 372 1
+node: 373 2
+node: 374 2
+node: 375 3
+node: 376 1
+node: 377 1
+node: 378 0
+node: 379 1
+node: 380 0
+node: 381 2
+node: 382 0
+node: 383 0
+node: 384 0
+node: 385 1
+node: 386 0
+node: 387 1
+node: 388 3
+node: 389 0
+node: 390 3
+node: 391 1
+node: 392 0
+node: 393 3
+node: 394 1
+node: 395 0
+node: 396 2
+node: 397 1
+390 389 388 387 386 385 384 383 382 381 -1 319 318 317 316 315 314 313 -1 31 30 29 28 27 -1 -1 -1 23 22 21 20 19 -1 365 -1 -1 -1 376 375 -1 374 373 372 371 370 225 224 223 222 221 67 66 65 64 63 62 -1 -1 -1 -1 -1 -1 55 54 53 52 51 50 -1 -1 -1 -1 -1 220 219 218 -1 216 99 98 97 96 95 94 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 83 82 81 80 79 78 112 110 109 -1 -1 -1 -1 -1 -1 102 101 -1 100 215 214 -1 -1 -1 -1 -1 -1 -1 -1 147 146 145 144 143 -1 -1 -1 140 139 138 -1 -1 -1 -1 133 132 131 -1 -1 127 126 125 124 123 -1 156 -1 -1 -1 -1 -1 -1 149 -1 -1 -1 -1 -1 210 209 208 207 -1 205 -1 204 -1 -1 -1 201 -1 200 199 -1 197 196 195 194 193 192 191 190 -1 -1 -1 -1 185 184 183 182 181 180 179 178 -1 176 175 173 -1 -1 169 167 -1 165 164 163 162 -1 -1 -1 114 113 77 -1 75 74 73 49 48 47 46 45 -1 -1 -1 244 243 242 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 231 230 229 -1 -1 -1 278 277 276 275 274 273 272 271 269 268 267 -1 -1 -1 -1 -1 -1 -1 -1 258 257 256 -1 255 254 253 252 251 250 249 248 304 303 302 301 299 298 297 296 295 294 -1 -1 -1 -1 -1 288 287 286 285 284 283 -1 282 281 280 279 -1 -1 -1 -1 -1 -1 -1 -1 17 16 15 14 13 12 11 -1 362 361 -1 -1 -1 357 356 355 354 352 351 348 347 346 345 344 -1 -1 -1 -1 -1 -1 -1 336 335 334 333 332 -1 -1 331 330 -1 329 328 327 326 -1 -1 -1 322 321 -1 -1 33 -1 -1 -1 -1 44 43 42 41 40 38 37 -1 -1 -1 -1 9  8  7  6  5  4  3  2  1  0  -1 -1 -1 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 379 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 367 -1 364 377 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 60 260 261 262 56 -1 -1 -1 -1 -1 -1 -1 -1 -1 71 70 -1 -1 -1 -1 217 -1 -1 -1 -1 -1 -1 -1 93 91 90 -1 -1 -1 86 85 -1 84 -1 -1 -1 -1 -1 -1 -1 -1 -1 108 106 -1 104 -1 103 -1 -1 -1 -1 -1 -1 213 -1 -1 120 -1 118 -1 -1 -1 -1 -1 -1 -1 142 -1 141 -1 -1 -1 -1 136 135 -1 -1 -1 -1 130 128 -1 -1 -1 -1 -1 -1 -1 151 150 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 206 -1 -1 -1 203 202 -1 -1 -1 -1 -1 198 -1 -1 -1 -1 -1 -1 -1 -1 189 -1 -1 186 -1 -1 -1 -1 -1 -1 -1 -1 177 -1 -1 -1 171 170 -1 -1 166 -1 -1 -1 -1 -1 -1 115 -1 -1 -1 76 -1 -1 -1 -1 -1 -1 -1 -1 227 226 245 -1 -1 -1 241 240 239 238 -1 -1 235 234 233 232 -1 -1 -1 228 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 266 57 58 59 -1 -1 -1 259 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 368 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 360 359 358 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 343 341 -1 -1 338 -1 337 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 325 324 323 -1 -1 -1 34 -1 -1 32 311 -1 -1 -1 -1 -1 -1 -1 -1 35 -1 10 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+FIX
+FIX pair
+AG pair
+PAIR
+build wc connection: 1 389
+build wc connection: 2 388
+build wc connection: 3 387
+build wc connection: 4 386
+build wc connection: 5 385
+build wc connection: 6 384
+build wc connection: 7 383
+build wc connection: 8 382
+build wc connection: 9 381
+build wc connection: 11 319
+build wc connection: 12 318
+build wc connection: 13 317
+build wc connection: 14 316
+build wc connection: 15 315
+build wc connection: 16 314
+build wc connection: 17 313
+build wc connection: 19 31
+build wc connection: 20 30
+build wc connection: 21 29
+build wc connection: 22 28
+build wc connection: 23 27
+build wc connection: 33 365
+build wc connection: 37 376
+build wc connection: 38 375
+build wc connection: 40 374
+build wc connection: 41 373
+build wc connection: 42 372
+build wc connection: 43 371
+build wc connection: 44 370
+build wc connection: 45 225
+build wc connection: 46 224
+build wc connection: 47 223
+build wc connection: 48 222
+build wc connection: 49 221
+build wc connection: 50 67
+build wc connection: 51 66
+build wc connection: 52 65
+build wc connection: 53 64
+build wc connection: 54 63
+build wc connection: 55 62
+build wc connection: 73 220
+build wc connection: 74 219
+build wc connection: 75 218
+build wc connection: 77 216
+build wc connection: 78 99
+build wc connection: 79 98
+build wc connection: 80 97
+build wc connection: 81 96
+build wc connection: 82 95
+build wc connection: 83 94
+build wc connection: 100 112
+build wc connection: 101 110
+build wc connection: 102 109
+build wc connection: 113 215
+build wc connection: 114 214
+build wc connection: 123 147
+build wc connection: 124 146
+build wc connection: 125 145
+build wc connection: 126 144
+build wc connection: 127 143
+build wc connection: 131 140
+build wc connection: 132 139
+build wc connection: 133 138
+build wc connection: 149 156
+build wc connection: 162 210
+build wc connection: 163 209
+build wc connection: 164 208
+build wc connection: 165 207
+build wc connection: 167 205
+build wc connection: 169 204
+build wc connection: 173 201
+build wc connection: 175 200
+build wc connection: 176 199
+build wc connection: 178 197
+build wc connection: 179 196
+build wc connection: 180 195
+build wc connection: 181 194
+build wc connection: 182 193
+build wc connection: 183 192
+build wc connection: 184 191
+build wc connection: 185 190
+build wc connection: 229 244
+build wc connection: 230 243
+build wc connection: 231 242
+build wc connection: 248 278
+build wc connection: 249 277
+build wc connection: 250 276
+build wc connection: 251 275
+build wc connection: 252 274
+build wc connection: 253 273
+build wc connection: 254 272
+build wc connection: 255 271
+build wc connection: 256 269
+build wc connection: 257 268
+build wc connection: 258 267
+build wc connection: 279 304
+build wc connection: 280 303
+build wc connection: 281 302
+build wc connection: 282 301
+build wc connection: 283 299
+build wc connection: 284 298
+build wc connection: 285 297
+build wc connection: 286 296
+build wc connection: 287 295
+build wc connection: 288 294
+build wc connection: 321 362
+build wc connection: 322 361
+build wc connection: 326 357
+build wc connection: 327 356
+build wc connection: 328 355
+build wc connection: 329 354
+build wc connection: 330 352
+build wc connection: 331 351
+build wc connection: 332 348
+build wc connection: 333 347
+build wc connection: 334 346
+build wc connection: 335 345
+build wc connection: 336 344
+build nwc connection: 10 379
+build nwc connection: 32 367
+build nwc connection: 34 364
+build nwc connection: 35 377
+build nwc connection: 56 60
+build nwc connection: 57 260
+build nwc connection: 58 261
+build nwc connection: 59 262
+build nwc connection: 70 71
+build nwc connection: 76 217
+build nwc connection: 84 93
+build nwc connection: 85 91
+build nwc connection: 86 90
+build nwc connection: 103 108
+build nwc connection: 104 106
+build nwc connection: 115 213
+build nwc connection: 118 120
+build nwc connection: 128 142
+build nwc connection: 130 141
+build nwc connection: 135 136
+build nwc connection: 150 151
+build nwc connection: 166 206
+build nwc connection: 170 203
+build nwc connection: 171 202
+build nwc connection: 177 198
+build nwc connection: 186 189
+build nwc connection: 226 227
+build nwc connection: 228 245
+build nwc connection: 232 241
+build nwc connection: 233 240
+build nwc connection: 234 239
+build nwc connection: 235 238
+build nwc connection: 259 266
+build nwc connection: 311 368
+build nwc connection: 323 360
+build nwc connection: 324 359
+build nwc connection: 325 358
+build nwc connection: 337 343
+build nwc connection: 338 341
+BULGE
+build bulge13 connection: 128 130
+build bulge13 connection: 167 169
+MID
+chain break: 25
+loopRev25
+loopRev26
+chain break: 61
+loopRev61
+chain break: 88
+loopRev88
+loopRev89
+chain break: 92
+loopRev92
+chain break: 105
+loopRev105
+chain break: 107
+loopRev107
+chain break: 111
+loopRev111
+chain break: 119
+loopRev119
+chain break: 129
+loopRev129
+chain break: 137
+loopRev137
+chain break: 155
+loopRev155
+chain break: 168
+loopRev168
+chain break: 187
+loopRev187
+loopRev188
+chain break: 212
+loopRev212
+chain break: 237
+loopRev237
+chain break: 265
+loopRev265
+chain break: 270
+loopRev270
+chain break: 291
+loopRev291
+loopRev292
+loopRev293
+chain break: 300
+loopRev300
+chain break: 312
+loopRev312
+chain break: 340
+loopRev340
+chain break: 342
+loopRev342
+chain break: 350
+loopRev350
+chain break: 353
+loopRev353
+chain break: 363
+loopRev363
+chain break: 366
+loopRev366
+chain break: 369
+loopRev369
+chain break: 378
+loopRev378
+chain break: 380
+loopRev380
+NEIGHBOR
+build wc nb connection: 0 1
+build wc nb connection: 1 2
+build wc nb connection: 2 3
+build wc nb connection: 3 4
+build wc nb connection: 4 5
+build wc nb connection: 5 6
+build wc nb connection: 6 7
+build wc nb connection: 7 8
+build wc nb connection: 8 9
+build loop nb connection: 9 10
+build loop nb connection: 10 11
+build wc nb connection: 11 12
+build wc nb connection: 12 13
+build wc nb connection: 13 14
+build wc nb connection: 14 15
+build wc nb connection: 15 16
+build wc nb connection: 16 17
+build loop nb connection: 17 18
+build loop nb connection: 18 19
+build wc nb connection: 19 20
+build wc nb connection: 20 21
+build wc nb connection: 21 22
+build wc nb connection: 22 23
+build loop nb connection: 23 24
+build loop nb connection: 24 25
+stop at loop mid: 25
+build loop nb connection: 31 32
+build loop nb connection: 32 33
+build nwc nb connection: 33 34
+build loop nb connection: 34 35
+build loop nb connection: 35 36
+build loop nb connection: 36 37
+build wc nb connection: 37 38
+build loop nb connection: 38 39
+build loop nb connection: 39 40
+build wc nb connection: 40 41
+build wc nb connection: 41 42
+build wc nb connection: 42 43
+build wc nb connection: 43 44
+build loop nb connection: 44 45
+build wc nb connection: 45 46
+build wc nb connection: 46 47
+build wc nb connection: 47 48
+build wc nb connection: 48 49
+build loop nb connection: 49 50
+build wc nb connection: 50 51
+build wc nb connection: 51 52
+build wc nb connection: 52 53
+build wc nb connection: 53 54
+build wc nb connection: 54 55
+build loop nb connection: 55 56
+build loop nb connection: 56 57
+build loop nb connection: 57 58
+build loop nb connection: 58 59
+build loop nb connection: 60 61
+build loop nb connection: 67 68
+build loop nb connection: 68 69
+build loop nb connection: 69 70
+build loop nb connection: 71 72
+build loop nb connection: 72 73
+build wc nb connection: 73 74
+build wc nb connection: 74 75
+build nwc nb connection: 75 76
+build nwc nb connection: 76 77
+build loop nb connection: 77 78
+build wc nb connection: 78 79
+build wc nb connection: 79 80
+build wc nb connection: 80 81
+build wc nb connection: 81 82
+build wc nb connection: 82 83
+build nwc nb connection: 83 84
+build loop nb connection: 84 85
+build nwc nb connection: 85 86
+build loop nb connection: 86 87
+build loop nb connection: 87 88
+stop at loop mid: 88
+build loop nb connection: 91 92
+build loop nb connection: 99 100
+build loop nb connection: 100 101
+build wc nb connection: 101 102
+build nwc nb connection: 102 103
+build loop nb connection: 103 104
+build loop nb connection: 104 105
+build loop nb connection: 106 107
+build loop nb connection: 110 111
+build loop nb connection: 112 113
+build wc nb connection: 113 114
+build nwc nb connection: 114 115
+build loop nb connection: 115 116
+build loop nb connection: 116 117
+build loop nb connection: 117 118
+build loop nb connection: 118 119
+build loop nb connection: 120 121
+build loop nb connection: 121 122
+build loop nb connection: 122 123
+build wc nb connection: 123 124
+build wc nb connection: 124 125
+build wc nb connection: 125 126
+build wc nb connection: 126 127
+build nwc nb connection: 127 128
+build loop nb connection: 128 129
+build nwc nb connection: 130 131
+build wc nb connection: 131 132
+build wc nb connection: 132 133
+build loop nb connection: 133 134
+build loop nb connection: 134 135
+build loop nb connection: 136 137
+build loop nb connection: 147 148
+build loop nb connection: 148 149
+build loop nb connection: 149 150
+build loop nb connection: 151 152
+build loop nb connection: 152 153
+build loop nb connection: 153 154
+build loop nb connection: 154 155
+build loop nb connection: 156 157
+build loop nb connection: 157 158
+build loop nb connection: 158 159
+build loop nb connection: 159 160
+build loop nb connection: 160 161
+build loop nb connection: 161 162
+build wc nb connection: 162 163
+build wc nb connection: 163 164
+build wc nb connection: 164 165
+build nwc nb connection: 165 166
+build nwc nb connection: 166 167
+build loop nb connection: 167 168
+build nwc nb connection: 169 170
+build nwc nb connection: 170 171
+build loop nb connection: 171 172
+build loop nb connection: 172 173
+build loop nb connection: 173 174
+build loop nb connection: 174 175
+build wc nb connection: 175 176
+build nwc nb connection: 176 177
+build nwc nb connection: 177 178
+build wc nb connection: 178 179
+build wc nb connection: 179 180
+build wc nb connection: 180 181
+build wc nb connection: 181 182
+build wc nb connection: 182 183
+build wc nb connection: 183 184
+build wc nb connection: 184 185
+build nwc nb connection: 185 186
+build loop nb connection: 186 187
+stop at loop mid: 187
+build loop nb connection: 210 211
+build loop nb connection: 211 212
+build loop nb connection: 225 226
+build loop nb connection: 227 228
+build nwc nb connection: 228 229
+build wc nb connection: 229 230
+build wc nb connection: 230 231
+build nwc nb connection: 231 232
+build nwc nb connection: 232 233
+build nwc nb connection: 233 234
+build nwc nb connection: 234 235
+build loop nb connection: 235 236
+build loop nb connection: 236 237
+build loop nb connection: 245 246
+build loop nb connection: 246 247
+build loop nb connection: 247 248
+build wc nb connection: 248 249
+build wc nb connection: 249 250
+build wc nb connection: 250 251
+build wc nb connection: 251 252
+build wc nb connection: 252 253
+build wc nb connection: 253 254
+build wc nb connection: 254 255
+build loop nb connection: 255 256
+build wc nb connection: 256 257
+build wc nb connection: 257 258
+build nwc nb connection: 258 259
+build loop nb connection: 262 263
+build loop nb connection: 263 264
+build loop nb connection: 264 265
+build loop nb connection: 269 270
+build loop nb connection: 278 279
+build wc nb connection: 279 280
+build wc nb connection: 280 281
+build wc nb connection: 281 282
+build loop nb connection: 282 283
+build wc nb connection: 283 284
+build wc nb connection: 284 285
+build wc nb connection: 285 286
+build wc nb connection: 286 287
+build wc nb connection: 287 288
+build loop nb connection: 288 289
+build loop nb connection: 289 290
+build loop nb connection: 290 291
+stop at loop mid: 291
+stop at loop mid: 292
+build loop nb connection: 299 300
+build loop nb connection: 304 305
+build loop nb connection: 305 306
+build loop nb connection: 306 307
+build loop nb connection: 307 308
+build loop nb connection: 308 309
+build loop nb connection: 309 310
+build loop nb connection: 310 311
+build loop nb connection: 311 312
+build loop nb connection: 319 320
+build loop nb connection: 320 321
+build wc nb connection: 321 322
+build nwc nb connection: 322 323
+build nwc nb connection: 323 324
+build nwc nb connection: 324 325
+build nwc nb connection: 325 326
+build wc nb connection: 326 327
+build wc nb connection: 327 328
+build wc nb connection: 328 329
+build loop nb connection: 329 330
+build wc nb connection: 330 331
+build loop nb connection: 331 332
+build wc nb connection: 332 333
+build wc nb connection: 333 334
+build wc nb connection: 334 335
+build wc nb connection: 335 336
+build nwc nb connection: 336 337
+build loop nb connection: 337 338
+build loop nb connection: 338 339
+build loop nb connection: 339 340
+build loop nb connection: 341 342
+build loop nb connection: 348 349
+build loop nb connection: 349 350
+build loop nb connection: 352 353
+build loop nb connection: 362 363
+build loop nb connection: 365 366
+build loop nb connection: 368 369
+build loop nb connection: 377 378
+build loop nb connection: 379 380
+build loop nb connection: 389 390
+build loop nb connection: 390 391
+build loop nb connection: 391 392
+build loop nb connection: 392 393
+build loop nb connection: 393 394
+build loop nb connection: 394 395
+build loop nb connection: 395 396
+build loop nb connection: 396 397
+REVERSE
+build reverse connection: 294 293
+build reverse connection: 293 292
+build reverse connection: 189 188
+build reverse connection: 90 89
+build reverse connection: 27 26
+ct: 1 389
+ct: 2 388
+ct: 3 387
+ct: 4 386
+ct: 5 385
+ct: 6 384
+ct: 7 383
+ct: 8 382
+ct: 9 381
+ct: 11 319
+ct: 12 318
+ct: 13 317
+ct: 14 316
+ct: 15 315
+ct: 16 314
+ct: 17 313
+ct: 19 31
+ct: 20 30
+ct: 21 29
+ct: 22 28
+ct: 23 27
+ct: 33 365
+ct: 37 376
+ct: 38 375
+ct: 40 374
+ct: 41 373
+ct: 42 372
+ct: 43 371
+ct: 44 370
+ct: 45 225
+ct: 46 224
+ct: 47 223
+ct: 48 222
+ct: 49 221
+ct: 50 67
+ct: 51 66
+ct: 52 65
+ct: 53 64
+ct: 54 63
+ct: 55 62
+ct: 73 220
+ct: 74 219
+ct: 75 218
+ct: 77 216
+ct: 78 99
+ct: 79 98
+ct: 80 97
+ct: 81 96
+ct: 82 95
+ct: 83 94
+ct: 100 112
+ct: 101 110
+ct: 102 109
+ct: 113 215
+ct: 114 214
+ct: 123 147
+ct: 124 146
+ct: 125 145
+ct: 126 144
+ct: 127 143
+ct: 131 140
+ct: 132 139
+ct: 133 138
+ct: 149 156
+ct: 162 210
+ct: 163 209
+ct: 164 208
+ct: 165 207
+ct: 167 205
+ct: 169 204
+ct: 173 201
+ct: 175 200
+ct: 176 199
+ct: 178 197
+ct: 179 196
+ct: 180 195
+ct: 181 194
+ct: 182 193
+ct: 183 192
+ct: 184 191
+ct: 185 190
+ct: 229 244
+ct: 230 243
+ct: 231 242
+ct: 248 278
+ct: 249 277
+ct: 250 276
+ct: 251 275
+ct: 252 274
+ct: 253 273
+ct: 254 272
+ct: 255 271
+ct: 256 269
+ct: 257 268
+ct: 258 267
+ct: 279 304
+ct: 280 303
+ct: 281 302
+ct: 282 301
+ct: 283 299
+ct: 284 298
+ct: 285 297
+ct: 286 296
+ct: 287 295
+ct: 288 294
+ct: 321 362
+ct: 322 361
+ct: 326 357
+ct: 327 356
+ct: 328 355
+ct: 329 354
+ct: 330 352
+ct: 331 351
+ct: 332 348
+ct: 333 347
+ct: 334 346
+ct: 335 345
+ct: 336 344
+ct: 10 379
+ct: 32 367
+ct: 34 364
+ct: 35 377
+ct: 56 60
+ct: 57 260
+ct: 58 261
+ct: 59 262
+ct: 70 71
+ct: 76 217
+ct: 84 93
+ct: 85 91
+ct: 86 90
+ct: 103 108
+ct: 104 106
+ct: 115 213
+ct: 118 120
+ct: 128 142
+ct: 130 141
+ct: 135 136
+ct: 150 151
+ct: 166 206
+ct: 170 203
+ct: 171 202
+ct: 177 198
+ct: 186 189
+ct: 226 227
+ct: 228 245
+ct: 232 241
+ct: 233 240
+ct: 234 239
+ct: 235 238
+ct: 259 266
+ct: 311 368
+ct: 323 360
+ct: 324 359
+ct: 325 358
+ct: 337 343
+ct: 338 341
+ct: 128 130
+ct: 167 169
+ct: 0 1
+ct: 1 2
+ct: 2 3
+ct: 3 4
+ct: 4 5
+ct: 5 6
+ct: 6 7
+ct: 7 8
+ct: 8 9
+ct: 9 10
+ct: 10 11
+ct: 11 12
+ct: 12 13
+ct: 13 14
+ct: 14 15
+ct: 15 16
+ct: 16 17
+ct: 17 18
+ct: 18 19
+ct: 19 20
+ct: 20 21
+ct: 21 22
+ct: 22 23
+ct: 23 24
+ct: 24 25
+ct: 31 32
+ct: 32 33
+ct: 33 34
+ct: 34 35
+ct: 35 36
+ct: 36 37
+ct: 37 38
+ct: 38 39
+ct: 39 40
+ct: 40 41
+ct: 41 42
+ct: 42 43
+ct: 43 44
+ct: 44 45
+ct: 45 46
+ct: 46 47
+ct: 47 48
+ct: 48 49
+ct: 49 50
+ct: 50 51
+ct: 51 52
+ct: 52 53
+ct: 53 54
+ct: 54 55
+ct: 55 56
+ct: 56 57
+ct: 57 58
+ct: 58 59
+ct: 60 61
+ct: 67 68
+ct: 68 69
+ct: 69 70
+ct: 71 72
+ct: 72 73
+ct: 73 74
+ct: 74 75
+ct: 75 76
+ct: 76 77
+ct: 77 78
+ct: 78 79
+ct: 79 80
+ct: 80 81
+ct: 81 82
+ct: 82 83
+ct: 83 84
+ct: 84 85
+ct: 85 86
+ct: 86 87
+ct: 87 88
+ct: 91 92
+ct: 99 100
+ct: 100 101
+ct: 101 102
+ct: 102 103
+ct: 103 104
+ct: 104 105
+ct: 106 107
+ct: 110 111
+ct: 112 113
+ct: 113 114
+ct: 114 115
+ct: 115 116
+ct: 116 117
+ct: 117 118
+ct: 118 119
+ct: 120 121
+ct: 121 122
+ct: 122 123
+ct: 123 124
+ct: 124 125
+ct: 125 126
+ct: 126 127
+ct: 127 128
+ct: 128 129
+ct: 130 131
+ct: 131 132
+ct: 132 133
+ct: 133 134
+ct: 134 135
+ct: 136 137
+ct: 147 148
+ct: 148 149
+ct: 149 150
+ct: 151 152
+ct: 152 153
+ct: 153 154
+ct: 154 155
+ct: 156 157
+ct: 157 158
+ct: 158 159
+ct: 159 160
+ct: 160 161
+ct: 161 162
+ct: 162 163
+ct: 163 164
+ct: 164 165
+ct: 165 166
+ct: 166 167
+ct: 167 168
+ct: 169 170
+ct: 170 171
+ct: 171 172
+ct: 172 173
+ct: 173 174
+ct: 174 175
+ct: 175 176
+ct: 176 177
+ct: 177 178
+ct: 178 179
+ct: 179 180
+ct: 180 181
+ct: 181 182
+ct: 182 183
+ct: 183 184
+ct: 184 185
+ct: 185 186
+ct: 186 187
+ct: 210 211
+ct: 211 212
+ct: 225 226
+ct: 227 228
+ct: 228 229
+ct: 229 230
+ct: 230 231
+ct: 231 232
+ct: 232 233
+ct: 233 234
+ct: 234 235
+ct: 235 236
+ct: 236 237
+ct: 245 246
+ct: 246 247
+ct: 247 248
+ct: 248 249
+ct: 249 250
+ct: 250 251
+ct: 251 252
+ct: 252 253
+ct: 253 254
+ct: 254 255
+ct: 255 256
+ct: 256 257
+ct: 257 258
+ct: 258 259
+ct: 262 263
+ct: 263 264
+ct: 264 265
+ct: 269 270
+ct: 278 279
+ct: 279 280
+ct: 280 281
+ct: 281 282
+ct: 282 283
+ct: 283 284
+ct: 284 285
+ct: 285 286
+ct: 286 287
+ct: 287 288
+ct: 288 289
+ct: 289 290
+ct: 290 291
+ct: 299 300
+ct: 304 305
+ct: 305 306
+ct: 306 307
+ct: 307 308
+ct: 308 309
+ct: 309 310
+ct: 310 311
+ct: 311 312
+ct: 319 320
+ct: 320 321
+ct: 321 322
+ct: 322 323
+ct: 323 324
+ct: 324 325
+ct: 325 326
+ct: 326 327
+ct: 327 328
+ct: 328 329
+ct: 329 330
+ct: 330 331
+ct: 331 332
+ct: 332 333
+ct: 333 334
+ct: 334 335
+ct: 335 336
+ct: 336 337
+ct: 337 338
+ct: 338 339
+ct: 339 340
+ct: 341 342
+ct: 348 349
+ct: 349 350
+ct: 352 353
+ct: 362 363
+ct: 365 366
+ct: 368 369
+ct: 377 378
+ct: 379 380
+ct: 389 390
+ct: 390 391
+ct: 391 392
+ct: 392 393
+ct: 393 394
+ct: 394 395
+ct: 395 396
+ct: 396 397
+ct: 294 293
+ct: 293 292
+ct: 189 188
+ct: 90 89
+ct: 27 26
+update f2 child info: 1 389
+update f2 child info: 2 388
+update f2 child info: 3 387
+update f2 child info: 4 386
+update f2 child info: 5 385
+update f2 child info: 6 384
+update f2 child info: 7 383
+update f2 child info: 8 382
+update f2 child info: 9 381
+update f2 child info: 11 319
+update f2 child info: 12 318
+update f2 child info: 13 317
+update f2 child info: 14 316
+update f2 child info: 15 315
+update f2 child info: 16 314
+update f2 child info: 17 313
+update f2 child info: 19 31
+update f2 child info: 20 30
+update f2 child info: 21 29
+update f2 child info: 22 28
+update f2 child info: 23 27
+update f2 child info: 33 365
+update f2 child info: 37 376
+update f2 child info: 38 375
+update f2 child info: 40 374
+update f2 child info: 41 373
+update f2 child info: 42 372
+update f2 child info: 43 371
+update f2 child info: 44 370
+update f2 child info: 45 225
+update f2 child info: 46 224
+update f2 child info: 47 223
+update f2 child info: 48 222
+update f2 child info: 49 221
+update f2 child info: 50 67
+update f2 child info: 51 66
+update f2 child info: 52 65
+update f2 child info: 53 64
+update f2 child info: 54 63
+update f2 child info: 55 62
+update f2 child info: 73 220
+update f2 child info: 74 219
+update f2 child info: 75 218
+update f2 child info: 77 216
+update f2 child info: 78 99
+update f2 child info: 79 98
+update f2 child info: 80 97
+update f2 child info: 81 96
+update f2 child info: 82 95
+update f2 child info: 83 94
+update f2 child info: 100 112
+update f2 child info: 101 110
+update f2 child info: 102 109
+update f2 child info: 113 215
+update f2 child info: 114 214
+update f2 child info: 123 147
+update f2 child info: 124 146
+update f2 child info: 125 145
+update f2 child info: 126 144
+update f2 child info: 127 143
+update f2 child info: 131 140
+update f2 child info: 132 139
+update f2 child info: 133 138
+update f2 child info: 149 156
+update f2 child info: 162 210
+update f2 child info: 163 209
+update f2 child info: 164 208
+update f2 child info: 165 207
+update f2 child info: 167 205
+update f2 child info: 169 204
+update f2 child info: 173 201
+update f2 child info: 175 200
+update f2 child info: 176 199
+update f2 child info: 178 197
+update f2 child info: 179 196
+update f2 child info: 180 195
+update f2 child info: 181 194
+update f2 child info: 182 193
+update f2 child info: 183 192
+update f2 child info: 184 191
+update f2 child info: 185 190
+update f2 child info: 229 244
+update f2 child info: 230 243
+update f2 child info: 231 242
+update f2 child info: 248 278
+update f2 child info: 249 277
+update f2 child info: 250 276
+update f2 child info: 251 275
+update f2 child info: 252 274
+update f2 child info: 253 273
+update f2 child info: 254 272
+update f2 child info: 255 271
+update f2 child info: 256 269
+update f2 child info: 257 268
+update f2 child info: 258 267
+update f2 child info: 279 304
+update f2 child info: 280 303
+update f2 child info: 281 302
+update f2 child info: 282 301
+update f2 child info: 283 299
+update f2 child info: 284 298
+update f2 child info: 285 297
+update f2 child info: 286 296
+update f2 child info: 287 295
+update f2 child info: 288 294
+update f2 child info: 321 362
+update f2 child info: 322 361
+update f2 child info: 326 357
+update f2 child info: 327 356
+update f2 child info: 328 355
+update f2 child info: 329 354
+update f2 child info: 330 352
+update f2 child info: 331 351
+update f2 child info: 332 348
+update f2 child info: 333 347
+update f2 child info: 334 346
+update f2 child info: 335 345
+update f2 child info: 336 344
+update f2 child info: 10 379
+update f2 child info: 32 367
+update f2 child info: 34 364
+update f2 child info: 35 377
+update f2 child info: 56 60
+update f2 child info: 57 260
+update f2 child info: 58 261
+update f2 child info: 59 262
+update f2 child info: 70 71
+update f2 child info: 76 217
+update f2 child info: 84 93
+update f2 child info: 85 91
+update f2 child info: 86 90
+update f2 child info: 103 108
+update f2 child info: 104 106
+update f2 child info: 115 213
+update f2 child info: 118 120
+update f2 child info: 128 142
+update f2 child info: 130 141
+update f2 child info: 135 136
+update f2 child info: 150 151
+update f2 child info: 166 206
+update f2 child info: 170 203
+update f2 child info: 171 202
+update f2 child info: 177 198
+update f2 child info: 186 189
+update f2 child info: 226 227
+update f2 child info: 228 245
+update f2 child info: 232 241
+update f2 child info: 233 240
+update f2 child info: 234 239
+update f2 child info: 235 238
+update f2 child info: 259 266
+update f2 child info: 311 368
+update f2 child info: 323 360
+update f2 child info: 324 359
+update f2 child info: 325 358
+update f2 child info: 337 343
+update f2 child info: 338 341
+update f2 child info: 128 130
+update f2 child info: 167 169
+update f2 child info: 0 1
+update f2 child info: 1 2
+update f2 child info: 2 3
+update f2 child info: 3 4
+update f2 child info: 4 5
+update f2 child info: 5 6
+update f2 child info: 6 7
+update f2 child info: 7 8
+update f2 child info: 8 9
+update f2 child info: 9 10
+update f2 child info: 10 11
+update f2 child info: 11 12
+update f2 child info: 12 13
+update f2 child info: 13 14
+update f2 child info: 14 15
+update f2 child info: 15 16
+update f2 child info: 16 17
+update f2 child info: 17 18
+update f2 child info: 18 19
+update f2 child info: 19 20
+update f2 child info: 20 21
+update f2 child info: 21 22
+update f2 child info: 22 23
+update f2 child info: 23 24
+update f2 child info: 24 25
+update f2 child info: 31 32
+update f2 child info: 32 33
+update f2 child info: 33 34
+update f2 child info: 34 35
+update f2 child info: 35 36
+update f2 child info: 36 37
+update f2 child info: 37 38
+update f2 child info: 38 39
+update f2 child info: 39 40
+update f2 child info: 40 41
+update f2 child info: 41 42
+update f2 child info: 42 43
+update f2 child info: 43 44
+update f2 child info: 44 45
+update f2 child info: 45 46
+update f2 child info: 46 47
+update f2 child info: 47 48
+update f2 child info: 48 49
+update f2 child info: 49 50
+update f2 child info: 50 51
+update f2 child info: 51 52
+update f2 child info: 52 53
+update f2 child info: 53 54
+update f2 child info: 54 55
+update f2 child info: 55 56
+update f2 child info: 56 57
+update f2 child info: 57 58
+update f2 child info: 58 59
+update f2 child info: 60 61
+update f2 child info: 67 68
+update f2 child info: 68 69
+update f2 child info: 69 70
+update f2 child info: 71 72
+update f2 child info: 72 73
+update f2 child info: 73 74
+update f2 child info: 74 75
+update f2 child info: 75 76
+update f2 child info: 76 77
+update f2 child info: 77 78
+update f2 child info: 78 79
+update f2 child info: 79 80
+update f2 child info: 80 81
+update f2 child info: 81 82
+update f2 child info: 82 83
+update f2 child info: 83 84
+update f2 child info: 84 85
+update f2 child info: 85 86
+update f2 child info: 86 87
+update f2 child info: 87 88
+update f2 child info: 91 92
+update f2 child info: 99 100
+update f2 child info: 100 101
+update f2 child info: 101 102
+update f2 child info: 102 103
+update f2 child info: 103 104
+update f2 child info: 104 105
+update f2 child info: 106 107
+update f2 child info: 110 111
+update f2 child info: 112 113
+update f2 child info: 113 114
+update f2 child info: 114 115
+update f2 child info: 115 116
+update f2 child info: 116 117
+update f2 child info: 117 118
+update f2 child info: 118 119
+update f2 child info: 120 121
+update f2 child info: 121 122
+update f2 child info: 122 123
+update f2 child info: 123 124
+update f2 child info: 124 125
+update f2 child info: 125 126
+update f2 child info: 126 127
+update f2 child info: 127 128
+update f2 child info: 128 129
+update f2 child info: 130 131
+update f2 child info: 131 132
+update f2 child info: 132 133
+update f2 child info: 133 134
+update f2 child info: 134 135
+update f2 child info: 136 137
+update f2 child info: 147 148
+update f2 child info: 148 149
+update f2 child info: 149 150
+update f2 child info: 151 152
+update f2 child info: 152 153
+update f2 child info: 153 154
+update f2 child info: 154 155
+update f2 child info: 156 157
+update f2 child info: 157 158
+update f2 child info: 158 159
+update f2 child info: 159 160
+update f2 child info: 160 161
+update f2 child info: 161 162
+update f2 child info: 162 163
+update f2 child info: 163 164
+update f2 child info: 164 165
+update f2 child info: 165 166
+update f2 child info: 166 167
+update f2 child info: 167 168
+update f2 child info: 169 170
+update f2 child info: 170 171
+update f2 child info: 171 172
+update f2 child info: 172 173
+update f2 child info: 173 174
+update f2 child info: 174 175
+update f2 child info: 175 176
+update f2 child info: 176 177
+update f2 child info: 177 178
+update f2 child info: 178 179
+update f2 child info: 179 180
+update f2 child info: 180 181
+update f2 child info: 181 182
+update f2 child info: 182 183
+update f2 child info: 183 184
+update f2 child info: 184 185
+update f2 child info: 185 186
+update f2 child info: 186 187
+update f2 child info: 210 211
+update f2 child info: 211 212
+update f2 child info: 225 226
+update f2 child info: 227 228
+update f2 child info: 228 229
+update f2 child info: 229 230
+update f2 child info: 230 231
+update f2 child info: 231 232
+update f2 child info: 232 233
+update f2 child info: 233 234
+update f2 child info: 234 235
+update f2 child info: 235 236
+update f2 child info: 236 237
+update f2 child info: 245 246
+update f2 child info: 246 247
+update f2 child info: 247 248
+update f2 child info: 248 249
+update f2 child info: 249 250
+update f2 child info: 250 251
+update f2 child info: 251 252
+update f2 child info: 252 253
+update f2 child info: 253 254
+update f2 child info: 254 255
+update f2 child info: 255 256
+update f2 child info: 256 257
+update f2 child info: 257 258
+update f2 child info: 258 259
+update f2 child info: 262 263
+update f2 child info: 263 264
+update f2 child info: 264 265
+update f2 child info: 269 270
+update f2 child info: 278 279
+update f2 child info: 279 280
+update f2 child info: 280 281
+update f2 child info: 281 282
+update f2 child info: 282 283
+update f2 child info: 283 284
+update f2 child info: 284 285
+update f2 child info: 285 286
+update f2 child info: 286 287
+update f2 child info: 287 288
+update f2 child info: 288 289
+update f2 child info: 289 290
+update f2 child info: 290 291
+update f2 child info: 299 300
+update f2 child info: 304 305
+update f2 child info: 305 306
+update f2 child info: 306 307
+update f2 child info: 307 308
+update f2 child info: 308 309
+update f2 child info: 309 310
+update f2 child info: 310 311
+update f2 child info: 311 312
+update f2 child info: 319 320
+update f2 child info: 320 321
+update f2 child info: 321 322
+update f2 child info: 322 323
+update f2 child info: 323 324
+update f2 child info: 324 325
+update f2 child info: 325 326
+update f2 child info: 326 327
+update f2 child info: 327 328
+update f2 child info: 328 329
+update f2 child info: 329 330
+update f2 child info: 330 331
+update f2 child info: 331 332
+update f2 child info: 332 333
+update f2 child info: 333 334
+update f2 child info: 334 335
+update f2 child info: 335 336
+update f2 child info: 336 337
+update f2 child info: 337 338
+update f2 child info: 338 339
+update f2 child info: 339 340
+update f2 child info: 341 342
+update f2 child info: 348 349
+update f2 child info: 349 350
+update f2 child info: 352 353
+update f2 child info: 362 363
+update f2 child info: 365 366
+update f2 child info: 368 369
+update f2 child info: 377 378
+update f2 child info: 379 380
+update f2 child info: 389 390
+update f2 child info: 390 391
+update f2 child info: 391 392
+update f2 child info: 392 393
+update f2 child info: 393 394
+update f2 child info: 394 395
+update f2 child info: 395 396
+update f2 child info: 396 397
+update f2 child info: 294 293
+update f2 child info: 293 292
+update f2 child info: 189 188
+update f2 child info: 90 89
+update f2 child info: 27 26
+update node child info: 0
+update node child info: 1
+update node child info: 2
+update node child info: 3
+update node child info: 4
+update node child info: 5
+update node child info: 6
+update node child info: 7
+update node child info: 8
+update node child info: 9
+update node child info: 10
+update node child info: 11
+update node child info: 12
+update node child info: 13
+update node child info: 14
+update node child info: 15
+update node child info: 16
+update node child info: 17
+update node child info: 18
+update node child info: 19
+update node child info: 20
+update node child info: 21
+update node child info: 22
+update node child info: 23
+update node child info: 24
+update node child info: 25
+update node child info: 26
+update node child info: 27
+update node child info: 28
+update node child info: 29
+update node child info: 30
+update node child info: 31
+update node child info: 32
+update node child info: 33
+update node child info: 34
+update node child info: 35
+update node child info: 36
+update node child info: 37
+update node child info: 38
+update node child info: 39
+update node child info: 40
+update node child info: 41
+update node child info: 42
+update node child info: 43
+update node child info: 44
+update node child info: 45
+update node child info: 46
+update node child info: 47
+update node child info: 48
+update node child info: 49
+update node child info: 50
+update node child info: 51
+update node child info: 52
+update node child info: 53
+update node child info: 54
+update node child info: 55
+update node child info: 56
+update node child info: 57
+update node child info: 58
+update node child info: 59
+update node child info: 60
+update node child info: 61
+update node child info: 62
+update node child info: 63
+update node child info: 64
+update node child info: 65
+update node child info: 66
+update node child info: 67
+update node child info: 68
+update node child info: 69
+update node child info: 70
+update node child info: 71
+update node child info: 72
+update node child info: 73
+update node child info: 74
+update node child info: 75
+update node child info: 76
+update node child info: 77
+update node child info: 78
+update node child info: 79
+update node child info: 80
+update node child info: 81
+update node child info: 82
+update node child info: 83
+update node child info: 84
+update node child info: 85
+update node child info: 86
+update node child info: 87
+update node child info: 88
+update node child info: 89
+update node child info: 90
+update node child info: 91
+update node child info: 92
+update node child info: 93
+update node child info: 94
+update node child info: 95
+update node child info: 96
+update node child info: 97
+update node child info: 98
+update node child info: 99
+update node child info: 100
+update node child info: 101
+update node child info: 102
+update node child info: 103
+update node child info: 104
+update node child info: 105
+update node child info: 106
+update node child info: 107
+update node child info: 108
+update node child info: 109
+update node child info: 110
+update node child info: 111
+update node child info: 112
+update node child info: 113
+update node child info: 114
+update node child info: 115
+update node child info: 116
+update node child info: 117
+update node child info: 118
+update node child info: 119
+update node child info: 120
+update node child info: 121
+update node child info: 122
+update node child info: 123
+update node child info: 124
+update node child info: 125
+update node child info: 126
+update node child info: 127
+update node child info: 128
+update node child info: 129
+update node child info: 130
+update node child info: 131
+update node child info: 132
+update node child info: 133
+update node child info: 134
+update node child info: 135
+update node child info: 136
+update node child info: 137
+update node child info: 138
+update node child info: 139
+update node child info: 140
+update node child info: 141
+update node child info: 142
+update node child info: 143
+update node child info: 144
+update node child info: 145
+update node child info: 146
+update node child info: 147
+update node child info: 148
+update node child info: 149
+update node child info: 150
+update node child info: 151
+update node child info: 152
+update node child info: 153
+update node child info: 154
+update node child info: 155
+update node child info: 156
+update node child info: 157
+update node child info: 158
+update node child info: 159
+update node child info: 160
+update node child info: 161
+update node child info: 162
+update node child info: 163
+update node child info: 164
+update node child info: 165
+update node child info: 166
+update node child info: 167
+update node child info: 168
+update node child info: 169
+update node child info: 170
+update node child info: 171
+update node child info: 172
+update node child info: 173
+update node child info: 174
+update node child info: 175
+update node child info: 176
+update node child info: 177
+update node child info: 178
+update node child info: 179
+update node child info: 180
+update node child info: 181
+update node child info: 182
+update node child info: 183
+update node child info: 184
+update node child info: 185
+update node child info: 186
+update node child info: 187
+update node child info: 188
+update node child info: 189
+update node child info: 190
+update node child info: 191
+update node child info: 192
+update node child info: 193
+update node child info: 194
+update node child info: 195
+update node child info: 196
+update node child info: 197
+update node child info: 198
+update node child info: 199
+update node child info: 200
+update node child info: 201
+update node child info: 202
+update node child info: 203
+update node child info: 204
+update node child info: 205
+update node child info: 206
+update node child info: 207
+update node child info: 208
+update node child info: 209
+update node child info: 210
+update node child info: 211
+update node child info: 212
+update node child info: 213
+update node child info: 214
+update node child info: 215
+update node child info: 216
+update node child info: 217
+update node child info: 218
+update node child info: 219
+update node child info: 220
+update node child info: 221
+update node child info: 222
+update node child info: 223
+update node child info: 224
+update node child info: 225
+update node child info: 226
+update node child info: 227
+update node child info: 228
+update node child info: 229
+update node child info: 230
+update node child info: 231
+update node child info: 232
+update node child info: 233
+update node child info: 234
+update node child info: 235
+update node child info: 236
+update node child info: 237
+update node child info: 238
+update node child info: 239
+update node child info: 240
+update node child info: 241
+update node child info: 242
+update node child info: 243
+update node child info: 244
+update node child info: 245
+update node child info: 246
+update node child info: 247
+update node child info: 248
+update node child info: 249
+update node child info: 250
+update node child info: 251
+update node child info: 252
+update node child info: 253
+update node child info: 254
+update node child info: 255
+update node child info: 256
+update node child info: 257
+update node child info: 258
+update node child info: 259
+update node child info: 260
+update node child info: 261
+update node child info: 262
+update node child info: 263
+update node child info: 264
+update node child info: 265
+update node child info: 266
+update node child info: 267
+update node child info: 268
+update node child info: 269
+update node child info: 270
+update node child info: 271
+update node child info: 272
+update node child info: 273
+update node child info: 274
+update node child info: 275
+update node child info: 276
+update node child info: 277
+update node child info: 278
+update node child info: 279
+update node child info: 280
+update node child info: 281
+update node child info: 282
+update node child info: 283
+update node child info: 284
+update node child info: 285
+update node child info: 286
+update node child info: 287
+update node child info: 288
+update node child info: 289
+update node child info: 290
+update node child info: 291
+update node child info: 292
+update node child info: 293
+update node child info: 294
+update node child info: 295
+update node child info: 296
+update node child info: 297
+update node child info: 298
+update node child info: 299
+update node child info: 300
+update node child info: 301
+update node child info: 302
+update node child info: 303
+update node child info: 304
+update node child info: 305
+update node child info: 306
+update node child info: 307
+update node child info: 308
+update node child info: 309
+update node child info: 310
+update node child info: 311
+update node child info: 312
+update node child info: 313
+update node child info: 314
+update node child info: 315
+update node child info: 316
+update node child info: 317
+update node child info: 318
+update node child info: 319
+update node child info: 320
+update node child info: 321
+update node child info: 322
+update node child info: 323
+update node child info: 324
+update node child info: 325
+update node child info: 326
+update node child info: 327
+update node child info: 328
+update node child info: 329
+update node child info: 330
+update node child info: 331
+update node child info: 332
+update node child info: 333
+update node child info: 334
+update node child info: 335
+update node child info: 336
+update node child info: 337
+update node child info: 338
+update node child info: 339
+update node child info: 340
+update node child info: 341
+update node child info: 342
+update node child info: 343
+update node child info: 344
+update node child info: 345
+update node child info: 346
+update node child info: 347
+update node child info: 348
+update node child info: 349
+update node child info: 350
+update node child info: 351
+update node child info: 352
+update node child info: 353
+update node child info: 354
+update node child info: 355
+update node child info: 356
+update node child info: 357
+update node child info: 358
+update node child info: 359
+update node child info: 360
+update node child info: 361
+update node child info: 362
+update node child info: 363
+update node child info: 364
+update node child info: 365
+update node child info: 366
+update node child info: 367
+update node child info: 368
+update node child info: 369
+update node child info: 370
+update node child info: 371
+update node child info: 372
+update node child info: 373
+update node child info: 374
+update node child info: 375
+update node child info: 376
+update node child info: 377
+update node child info: 378
+update node child info: 379
+update node child info: 380
+update node child info: 381
+update node child info: 382
+update node child info: 383
+update node child info: 384
+update node child info: 385
+update node child info: 386
+update node child info: 387
+update node child info: 388
+update node child info: 389
+update node child info: 390
+update node child info: 391
+update node child info: 392
+update node child info: 393
+update node child info: 394
+update node child info: 395
+update node child info: 396
+update node child info: 397
+check ribose
+check ribose: 
+check ribose
+check ribose: 
+Energy: 33.1699

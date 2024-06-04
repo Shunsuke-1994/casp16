@@ -31,9 +31,10 @@ scripts
 ### `scripts/eval_scores.py`
 ```
 python scripts/eval_scores.py \
-    --pdb_dir ./datasets/R1212 \
-    --out_dir ./datasets/R1212 \
-    --cpu 8
+    --pdb_dir ./test \
+    --out_dir ./test \
+    --print \
+    --cpu 2
 ```
 `datasets/R1212` にbriq入力ファイルとその出力が出てくる(.briq.in, .briq.out).  
 .briq.outの最後の行にエネルギーの記載がある.  
@@ -41,8 +42,8 @@ python scripts/eval_scores.py \
 ### `scripts/calc_rmsd.py`
 ```
 python scripts/calc_rmsd.py \
-    --pdb_dir ./datasets/R1212 \
-    --cpu 8 \
+    --pdb_dir ./test \
+    --cpu 2 \
     --print_every 10
 ```
 (N,N)の距離行列を計算する. print_enery毎にprintする.  
