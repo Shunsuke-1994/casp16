@@ -28,6 +28,26 @@ scripts
 ```
 `eval_scores.py` は、`src/RNA_BRiQ.py` を動かしている.  
 他のfileは無視してください.  
+### `scripts/eval_scores.py`
+```
+python scripts/eval_scores.py \
+    --pdb_dir ./datasets/R1212 \
+    --out_dir ./datasets/R1212 \
+    --cpu 8
+```
+`datasets/R1212` にbriq入力ファイルとその出力が出てくる(.briq.in, .briq.out).  
+.briq.outの最後の行にエネルギーの記載がある.  
+
+### `scripts/calc_rmsd.py`
+```
+python scripts/calc_rmsd.py \
+    --pdb_dir ./datasets/R1212 \
+    --cpu 8 \
+    --print_every 10
+```
+(N,N)の距離行列を計算する. print_enery毎にprintする.  
+pdb_dirに, pdb idでソートされた距離行列がnpy, dfで出力される.  
+
 
 ## notebooks
 targetごとにnotebookを作成して解析している.  

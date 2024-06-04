@@ -26,6 +26,7 @@ if __name__ == '__main__':
     import argparse
     import os
     import numpy as np 
+    import pandas as pd
     import warnings
     warnings.filterwarnings('ignore')
 
@@ -53,5 +54,8 @@ if __name__ == '__main__':
 
     np.save(os.path.join(args.pdb_dir, "rmsd_matrix_sorted_id.npy"), rmsd_matrix)
     print("RMSD matrix saved")
+
+    df_rmsd = pd.DataFrame(rmsd_matrix, columns=pdb_files, index=pdb_files)
+    df_rmsd.to_csv(os.path.join(args.pdb_dir, "rmsd_matrix_sorted_id.csv"))
 
 

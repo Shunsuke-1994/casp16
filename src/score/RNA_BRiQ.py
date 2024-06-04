@@ -62,7 +62,7 @@ def RNA_BRiQ_eval_batch(pdb_dir, out_dir, cpu=7):
     out_files = [f for f in os.listdir(pdb_dir) if f.endswith(".briq.out")]
     pdbs_energies = []
     for out_file in out_files:
-        with open(os.path.join(out_file, f), "r") as f:
+        with open(os.path.join(pdb_dir, out_file), "r") as f:
             lines = f.readlines()
         energy = float(lines[-1].strip().replace("Energy: ", ""))
         pdbs_energies.append(
